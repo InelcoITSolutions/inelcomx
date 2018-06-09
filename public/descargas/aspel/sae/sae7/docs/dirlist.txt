@@ -1,0 +1,37 @@
+002-Facturaci¢n-global-de-notas-de-venta-con-Aspel-SAE-7.0.pdf
+003-Contabilidad_Electronica_en_ Aspel-SAE_7.0.pdf
+004-Facturacion_WEB_en_Aspel-SAE_7.0.pdf
+005-Instalaci¢n-y-Configuraci¢n-del-IIS-para-la-facturaci¢n-WEB-en-Aspel-SAE-7.00.pdf
+006-Configuracion_Aspel-SAE_7.0_para_trabajar_remotamente.pdf
+007-Nuevas-funciones-y-caracter¡sticas-de-Aspel-SAE-7.0.pdf
+008-Inicio-de-Operaciones-en-Aspel-SAE-7.0-(Nueva base de datos).pdf
+009-Inicio-de-Operaciones-en-Aspel-SAE-7.0-para-usuarios-de-una-versi¢n-anterior.pdf
+010-Elaboracion-de-una-Nota-de-credito-en-SAE-7-0-V1.pdf
+011-Generaci¢n-de-CFDI-con-Aspel-SAE-7.0-todo-Incluido.pdf
+012-Generaci¢n-de-CFDI-con-Aspel-SAE-7.0-y-Aspel-Sellado-CFDI.pdf
+014-Costeo_de_movimientos_pendientes_en_Aspel_SAE_7.0.pdf
+015-mostrar_imagenes_de_productos_en_reportes_QR2_en_Aspel_SAE_7.0.pdf
+016-SAE_Movil_como_funciona_en_SAE-7.0.pdf
+017-configuraci¢n_de_Aspel_SAE_M¢vil_con_SAE 7.0.pdf
+019-Agregar-descripcion-del-producto-en-XML-y-PDF.pdf
+020-Proceso_de_Cierre_en_Aspel-SAE_7.0.pdf
+021-Procedimiento-para-importar-informaci¢n-de-Excel-a-Aspel-SAE.pdf
+022-Declaracion_informativa_simplificada_en_Aspel_SAE_7.0.pdf
+023-abrir_bases_de_datos_Aspel_SAE_7.0.pdf
+024-Principales_rutinas_de_mantenimiento_Aspel_SAE_7.0.pdf
+025-SAE_en_mi_propia_nube_Aspel-SAE_7.0.pdf
+028-Contrataci¢n_Aspel_NUBE_v2.pdf
+029-Activacion_sistemas_Aspel_SAE-nube.pdf
+030-Preguntas-frecuentes-ASPEL_SAE-nube.pdf
+036-Traducci¢n_de_Aspel-SAE_5.0_a_Aspel-SAE_7.0_v2.pdf
+037-Que-es-un-anticipo.pdf
+038-Aplicaci¢n-anticipo-mediante-CFDI-v3.3-egreso-aplicado-factura-operaci¢n.pdf
+039-Aplicaci¢n-anticipo-mediante-CFDI-v3.3-egreso-aplicado-factura-anticipo.pdf
+040-Facturaci¢n-de-muestras-en-Aspel-SAE-7.0.pdf
+041-Facturaci¢n-muestras-Aspel-SAE 7.0 sin-descuento-con-precio-1-centavo.pdf
+042-Facturaci¢n-muestras-en-Aspel-SAE-7.0-aplicando-descuento-del-99.999.pdf
+043-Facturaci¢n-contratos-obra-Aspel-SAE-7.0.pdf
+044-Facturaci¢n-contratos-obra-Aspel-SAE-7.0-Anticipo.pdf
+045-Facturaci¢n-contratos-obra-Aspel-SAE-7.0-Complemento-pagos.pdf
+046-Facturaci¢n-contratos-obra-Aspel-SAE-7.0-Descuentos-y-CFDI-complementario.pdf
+dirlist.txt

@@ -1,0 +1,302 @@
+/* Comparison table
+===================
+Provides styling and responsive behaviour for comparison table
+
+*/
+
+@import '../variables.less'; 
+
+/* # Comparison table V10 */
+
+/* ## Desktop version */
+.tab-com {
+    margin: 0 auto 0;
+    border-collapse: collapse;
+    width: 100%;
+    
+	TD {
+	    padding: 8px 0px;
+	    text-align: center;
+	    border-bottom: 1px solid @ComparisonColumBorder;
+		border-right: 10px solid @White;
+	    }
+	TD.val {
+        width: 16%;
+    }
+
+/* #### Headings part */
+	TR.titles TD {
+	    padding: 5px 0 0;
+	    text-align: center;
+	    border-bottom: none;
+		font-weight: normal;
+		font-size: 16px;
+
+			H5 A {
+				font-size: 18px;
+				font-weight: normal;
+                color: @Text;
+
+				SPAN {
+					display: block;
+					font-weight: 700;
+                    color: @HeadingText;
+				}
+			}
+	    }
+
+/* #### Product images part */
+	TR.products { 
+		TD {
+		border-bottom: none;
+
+			IMG {
+		    width: 80%;
+		    max-width: 80px;
+			margin: 0 auto 0;
+		    }
+		}
+		TD.description {
+	    	text-align: left;
+
+	    	P.title {
+	    		font-size: 35px;
+	    		padding-bottom: 20px;
+	    	}
+	    }
+
+	}
+
+/* #### Buttons part */
+	TR.buttons TD {
+	    border-bottom: none;
+	    padding: 20px 0;
+		vertical-align: top;
+	    
+		.button {
+		    width: 80%;
+
+	    	SPAN {
+		    width: 100%;
+			padding: 16px 0 17px;
+		    }
+	    }
+	    .trial {
+	    	padding-top: 7px;
+	    	font-size: 14px;
+            font-weight: 400;
+	    }
+	}
+
+/* #### Middle part
+
+Snippet {ComparisonTableFeatures}
+ */
+	TR.feature {
+		TD.txt {
+		    text-align: left;
+		    font-size: 14px;
+            font-weight: normal;
+
+		    	B {
+		    		display: block;
+		    		font-size: 16px;
+		    		font-weight: 700;
+                    color: @HeadingText;
+		    	}
+		    	SPAN.label {
+		    		position: relative;
+		    		top: -1px;
+		    		display: inline-block;
+		    		background-color: @ComparisonLabelBackground;
+		    		margin: 0 7px 0 0;
+		    		padding: 2px 5px 1px;
+		    		font-size: 10px;
+		    		color: @ComparisonLabelText;
+		    	}
+		    }
+		TD.val {
+
+			SPAN {
+		    display: inline-block;
+		    width: 10px;
+		    height: 10px;
+		    text-align: center;
+		    zoom: 1;
+		    position: relative;
+		    border-radius: 10px;
+
+		    	B {
+			    position: fixed;
+			    top: 0;
+			    left: 5000px;
+			    }
+		    }
+			SPAN.yes {
+			    background-color: @ComparisonDot;
+			}
+		}
+		TD.val.empty {
+		    background-color: transparent;
+		}
+	}
+    
+}
+
+/* ## Mobile version  */
+
+@media @mobile {
+
+    .tab-com,
+    .tab-com tbody {		
+        width: 100% !important;
+    }
+
+    .tab-com {
+
+	    .titles {
+	        border: 0 !important;
+	        margin: 0 !important;
+	        padding: 0 !important;
+	    }
+	    .titles td h5 {
+	        font-size: 14px;
+	    }
+
+	    tr {
+	        position: relative !important;
+
+	        &:before,
+	        &:after {
+	        content: "";
+		    display: table;
+		    line-height: 0;
+	    	}
+	    }
+
+	    td {
+	        width: 25% !important;
+	        float: left !important;
+	        border-right: 0 !important;
+	    }
+
+	    td.txt {
+	        width: 100% !important;
+
+	        p {
+	        	font-size:12px !important;
+	        }
+	    }
+	    td.description {
+	        display: none;
+	    }
+
+
+	    .top td h3,
+	    .txt b {
+	        font-size: 14px !important; 
+	    }
+
+	}
+
+
+}
+/* # Two columns only
+
+Layout exceptions - for version (without Free Antivirus and Pro Antivirus)
+
+It hides FAV, PAV and updates widths to fit decreased number of columns
+*/
+
+/*  #### default without PAV */
+.tab-com.products-2 {
+    
+    td.c1,
+    td.c2 {
+        display: none;
+    }
+    td.val {
+        width: 23%;
+    }
+
+    @media @mobile {
+        td {
+            width: 50% !important;
+        }
+        td.txt {
+            width: 100% !important;
+        }
+    }
+
+}
+
+/* # Three columns only
+
+Layout exceptions - for version (without Pro Antivirus)
+
+It hides PAV and updates widths to fit decreased number of columns
+ */
+
+/*  #### default without PAV */
+.tab-com.products-3 {
+
+    td.c2 {
+        display: none;
+    }
+    td.val {
+        width: 20%;
+    }
+
+    @media @mobile {
+    	td {
+    	width: 33.33333% !important;
+    	}
+    	td.txt {
+	        width: 100% !important;
+	    }
+    }
+
+}
+
+/* #### without FA */
+.tab-com.products-3.no-free {
+	td.c1 {
+        display: none;
+    }
+    td.c2 {
+        display: table-cell;
+    }
+
+}
+
+
+/* # Color columns
+
+Background colors for columns
+Currently comented, but later might be used on compare-antivirus
+
+.tab-com.colors {
+    TR.feature {
+        TD.val.c1,
+        TD.val.c2,
+        TD.val.c3 {
+        	background-color: @ComparisonColumBackground;
+        }
+        TD.val.c4 {
+        	background-color: @ComparisonColumImportantBackground;
+        }
+        TD.val.empty {
+            background-color: transparent;
+        }
+    }
+    TR.buttons TD {
+        background-color: transparent;
+    }
+}
+.tab-com.colors.products-3 {
+
+    TD.val.c3 {
+    	background-color: @ComparisonColumImportantBackground;
+    }
+}
+ */

@@ -1,0 +1,51 @@
+Actualizacion necesaria del Sistema Operativo para el timbrado de CFDI.pdf
+Alta masiva de trabajadores al RFC mediante Aspel-NOI 7.0.pdf
+Asegurando un correcto Reparto de Utilidades con Aspel-NOI 7.0.pdf
+Calculo del Aguinaldo en Aspel-NOI 7.0.pdf
+Calculo mensual del ISR en Aspel-NOI 7.0.pdf
+Cierre del ejercicio Aspel-NOI 7.0.pdf
+Configuraci¢n de Aspel-NOI 7.0 en anio bisiesto.pdf
+C lculo anual de ISR en Aspel-NOI 7.0.pdf
+Declaracion Informativa de Sueldos y Salarios en Aspel-NOI 7.0.pdf
+El certificado no es de tipo CSD en los Sistemas Aspel.pdf
+Emite recibos electronicos con Aspel-NOI  7.0.pdf
+Firma de Actualizaci¢n de contrato-Aspel Sellado CFDI.pdf
+Identificacion del origen de los recursos destinados al pago de nomina.pdf
+Interfaz Aspel-NOI con Aspel-BANCO.pdf
+Interfaz Aspel-NOI con Aspel-COI.pdf
+Manejo de Prevision Social en Aspel-NOI 7.0.pdf
+Manejo del subsidio para el empleo en Aspel-NOI 7.0.pdf
+Metodo-pago-Aspel-NOI-7 0-v1.pdf
+Movimientos a la Nomina en Aspel-NOI 7.0.pdf
+Pago por Hora en Aspel-NOI 7.0.pdf
+Pasos para cancelaci¢n masiva en Aspel NOI.pdf
+Puesta en marcha de Aspel-NOI 7.0 para usuarios de una version anterior.pdf
+Puesta en marcha de Aspel-NOI 70 para nuevos usuarios.pdf
+Reparto de Utilidades (PTU) con Aspel-NOI 7.0.pdf
+
+----------------------------------------------------------------
+
+Actualización necesaria del sistema operativo para el timbrado de CFDI
+Alta masiva de trabajadores al RFC mediante Aspel NOI 7.0
+Asegurando un correcto reparto de utilidades con Aspel NOI 7.0
+Calculo del aguinaldo en Aspel NOI 7.0
+Calculo mensual del ISR en Aspel NOI 7.0
+Cierre del ejercicio Aspel NOI 7.0
+Configuración de Aspel NOI 7.0 en año bisiesto
+Cálculo anual de ISR en Aspel NOI 7.0
+Declaración informativa de sueldos y salarios en Aspel NOI 7.0
+El certificado no es de tipo csd en los sistemas Aspel
+Emite recibos electrónicos con Aspel NOI 7.0
+Firma de actualización de contrato Aspel sellado CFDI
+Identificación del origen de los recursos destinados al pago de nomina
+Interfaz Aspel NOI con Aspel BANCO
+Interfaz Aspel NOI con Aspel COI
+Manejo de previsión social en Aspel NOI 7.0
+Manejo del subsidio para el empleo en Aspel NOI 7.0
+Método pago Aspel NOI 7.0
+Movimientos a la nómina en Aspel NOI 7.0
+Pago por hora en Aspel NOI 7.0
+Pasos para cancelación masiva en Aspel NOI
+Puesta en marcha de Aspel NOI 7.0 para usuarios de una versión anterior
+Puesta en marcha de Aspel NOI 7.0 para nuevos usuarios
+Reparto de utilidades (PTU) con Aspel NOI 7.0

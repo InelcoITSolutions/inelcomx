@@ -1,0 +1,72 @@
+	/*FOOTER*/
+footer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 0px;
+    font-weight: 000;
+    background-image: url(/../images/banner/inelco-footer-cintermez.jpg);
+    color: #fff;
+}
+
+footer .foot{
+    background: rgba(50, 57, 70, 0.7);
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#footer{
+	background: #1e3662;
+	padding: 1% 0;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+footer a, footer a:hover{
+	color: #FFF;
+}
+
+footer h6{
+	font-weight: 300;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+footer .img-responsive{
+	padding-bottom: 4%;
+	max-width: 180px;
+	width: 70%;
+}
+
+#footer p, footer p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+}
+
+footer .form-inline{
+	text-align:center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+footer .p-css{
+	font-size: 1em;
+}
+
+footer .form-inline input{
+	background: transparent;
+	color: #FFF;
+	font-weight: 400;
+	border-color:#fff!important;
+}
+
+footer .form-inline input{
+	width: auto!important;
+}
