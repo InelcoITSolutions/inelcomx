@@ -7,4 +7,4 @@ https://www.inelco.mx/
 
 #README.md
 
-Sin información por ahora.
+Información pendiente.
