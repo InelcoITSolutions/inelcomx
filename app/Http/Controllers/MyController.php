@@ -541,16 +541,18 @@ class MyController extends Controller{
             $message->cc('reservacion@inelco.mx');
         });
 
-        Reservacion::create([
-                'nombre' => $request->nombre,
-                'apellidos' => $request->apellidos,
-                'empresa' => $request->empresa,
-                'telefono' => $request->telefono,
-                'email' => $request->email,
-                'evento' => $request->evento,
-                'no_reservacion' => $request->no_reservacion,
-                'link_webinar' => $request->link_webinar
-            ]);
+        foreach ($request as $reserv) {
+            Reservacion::create([
+                    'nombre' => $request->nombre,
+                    'apellidos' => $request->apellidos,
+                    'empresa' => $request->empresa,
+                    'telefono' => $request->telefono,
+                    'email' => $request->email,
+                    'evento' => $request->evento,
+                    'no_reservacion' => $request->no_reservacion,
+                    'link_webinar' => $request->link_webinar
+                ]);
+        }
         
         //return $pdf->download('reservacion-presentacion.pdf');
         return view('confirmar_registro', compact('request'));
@@ -602,7 +604,7 @@ class MyController extends Controller{
             ]);
         
         //return $pdf->download('reservacion-presentacion.pdf');
-        return redirect()->back()->with('mensaje','Te hemos enviado el link de descarga a tu email. (El enlace puede terminar en la carpeta de spam o correo no deseado.)');
+        return redirect()->back()->with('mensaje','Te hemos enviado el link de descarga a tu email. (En caso de no ver el enlace, comprobar en la carpeta de correo no deseado.)');
     }
 
 
