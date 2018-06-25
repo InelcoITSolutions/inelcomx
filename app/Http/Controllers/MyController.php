@@ -540,8 +540,9 @@ class MyController extends Controller{
             $message->to($this->recibido->email, $this->recibido->nombre.' '.$this->recibido->apellidos.' | '.$this->recibido->empresa);
             $message->cc('reservacion@inelco.mx');
         });
-
-        foreach ($request as $reserv) {
+		
+		
+        
             Reservacion::create([
                     'nombre' => $request->nombre,
                     'apellidos' => $request->apellidos,
@@ -552,7 +553,7 @@ class MyController extends Controller{
                     'no_reservacion' => $request->no_reservacion,
                     'link_webinar' => $request->link_webinar
                 ]);
-        }
+        
         
         //return $pdf->download('reservacion-presentacion.pdf');
         return view('confirmar_registro', compact('request'));
