@@ -28,8 +28,8 @@
 	                </div>
 	                <div class="modal-body">
 	                    <a href="{{ url('/promociones') }}" target="_blank">
-	                                    <img src="/images-new/inelco/promocion/banner/promocion-popup.png" class="img-responsive img-promocion" alt="prom">
-	                                </a>
+	                        <img src="/images-new/inelco/promocion/banner/promocion-popup.png" class="img-responsive img-promocion" alt="prom">
+	                    </a>
 	                </div>
 {{-- 	                <div class="modal-footer">
 	                    <div class="col-md-2 col-md-offset-5 col-xs-2 col-xs-offset-3">
@@ -90,7 +90,7 @@
 				<div class="bs-slider-overlay"></div>
 				<!-- Slide Text Layer -->
 				<div class="slide-text slide_style_right">
-					<h2 class="title-h1"data-animation="animated zoomInLeft">Descubre el nuevo <span style = "display: block;"></span> Aspel SAE 7.0</h2>
+					<h2 class="title-h1" data-animation="animated zoomInLeft">Descubre el nuevo <span style = "display: block;"></span> Aspel SAE 7.0</h2>
 					<p data-animation="animated fadeInRight">El sistema Administrativo Empresarial más utilizado en México.</p>
 					<a href="https://www.aspelsoluciones.com/actualizacion-sae" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Actualización</a>
 					<a href="{{url('aspel-sae/lo-nuevo')}}" class="btn btn-primary" data-animation="animated fadeInRight">Lo nuevo</a>
@@ -104,7 +104,7 @@
 				<div class="bs-slider-overlay"></div>
 				<!-- Slide Text Layer -->
 				<div class="slide-text slide_style_left">
-					<h2 class="title-h1"data-animation="animated zoomInLeft">Nueva versión <span style = "display: block;"></span> Soft Restaurant 9.5</h2>
+					<h2 class="title-h1" data-animation="animated zoomInLeft">Nueva versión <span style = "display: block;"></span> Soft Restaurant 9.5</h2>
 					<p data-animation="animated fadeInRight">Nuevas funciones de seguridad y con CFDI 3.3. </p>
 					<a href="{{url('national-soft/soft-restaurant/lo-nuevo')}}" class="btn btn-primary" data-animation="animated fadeInRight">Lo nuevo</a>
 				</div>
@@ -117,7 +117,7 @@
 				<div class="bs-slider-overlay"></div>
 				<!-- Slide Text Layer -->
 				<div class="slide-text slide_style_right">
-					<h2 class="title-h1"data-animation="animated zoomInLeft">Nuevo y práctico <span style = "display: block;"></span> Facture 4.0</h2>
+					<h2 class="title-h1" data-animation="animated zoomInLeft">Nuevo y práctico <span style = "display: block;"></span> Facture 4.0</h2>
 					<p data-animation="animated fadeInRight">Genera fácilmente tus comprobantes fiscales digitales.</p>
 					<a href="https://www.aspelsoluciones.com/actualizacion-facture" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Actualización</a>
 					<a href="{{url('aspel-facture/lo-nuevo')}}" class="btn btn-primary" data-animation="animated fadeInRight">Lo nuevo</a>
