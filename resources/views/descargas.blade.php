@@ -824,9 +824,9 @@
                                     <center><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="Aspel SAE Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
-                                    <h3 class="title-h3">Aspel SAE 7.0 - R16</h3>
+                                    <h3 class="title-h3">Aspel SAE 7.0 - R17</h3>
                                     <h4 class="title-h4">Sistema Administrativo Empresarial</h4>
-                                    <p><b>Actualizado: 01 / junio / 2018</b></p> 
+                                    <p><b>Actualizado: 20 / junio / 2018</b></p> 
                                     <p>Administra y controla todas las operaciones del ciclo de compra-venta de la empresa, incluye herramientas de CRM y Facturación Electrónica para optimizar los esfuerzos de las áreas administrativas y comerciales. </p>
                                     <ul style="line-height:1.5em;height: auto;">
                                         <li>Una vez instalado puedes utilizarlo durante 30 días sin costo, al concluir este periodo el Sistema no funcionará sino hasta que adquieras el Número de Serie Electrónico. Si necesitas una licencia <a href="{{ url('contacto') }}">Contáctanos</a></li>
@@ -841,11 +841,11 @@
                         <div class="container-fluid ">
                             <div class="row row-download">
                                 <div class="col-md-9">
-                                    <h4 class="title-h4">Aspel-SAE 7.0 Reinstalable 15</h4>
-                                    <b>Actualizado: 27 / 03 / 2018</b>
+                                    <h4 class="title-h4">Aspel-SAE 7.0 Reinstalable 16</h4>
+                                    <b>Actualizado: 01 / 06 / 2018</b>
                                 </div>
                                 <div class="col-md-3">
-                                    <p><span>294 MB</span><a href="http://ftp.aspel.com/Download/SAE/reinstal/ASPEL-SAE70_R15.exe" title="Descargar SAE 7.0 R15" class="a-download"></a></p>
+                                    <p><span>340 MB</span><a href="http://ftp.aspel.com/Download/SAE/reinstal/ASPEL-SAE70_R16.exe" title="Descargar SAE 7.0 R16" class="a-download"></a></p>
                                 </div>
                             </div>
                             <div class="row row-download">
