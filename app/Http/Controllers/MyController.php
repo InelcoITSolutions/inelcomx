@@ -502,6 +502,11 @@ class MyController extends Controller{
 
     public function reservacion(Request $request){
 
+        // $usuarios = new Usuario;
+
+        // $usuarios->reservacion = $request->no_reservacion;
+        // $evento->reservacion = $request->evento;
+
         $this->validate($request, [
             'nombre'=> 'required|max:255',
             'apellidos' => 'required|max:255',
@@ -511,51 +516,52 @@ class MyController extends Controller{
         ]);
 
         $this->recibido=$request;
-        if(!$this->recibido->link_webinar){
+        /*if(!$this->recibido->link_webinar){
             $this->arpdf=$this->pdf($request);
-        }
-        
-        Mail::send('templates.email', [
-            'evento' =>$this->recibido->evento,
-            'lugar' =>$this->recibido->lugar,
-            'fecha' =>$this->recibido->fecha,
-            'horario' =>$this->recibido->horario,
-            'precio' =>$this->recibido->paga,
-            'no_reservacion' =>$this->recibido->no_reservacion,
-            'link_webinar' =>$this->recibido->link_webinar,
-            'nombrec' =>$this->recibido->nombre.' '.$this->recibido->apellidos,
-            'empresa' =>$this->recibido->empresa,
-            ],function ($message) {
-            
-            //remitente
-            $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
-            //asunto
-            $message->subject('Reservacion al evento: '.$this->recibido->evento);
-            //archivo adjunto
-            if(!$this->recibido->link_webinar){
-                $message->attachData($this->arpdf, 'reservacion-presentacion.pdf');
-            }
-            
-            //receptor
-            $message->to($this->recibido->email, $this->recibido->nombre.' '.$this->recibido->apellidos.' | '.$this->recibido->empresa);
-            $message->cc('reservacion@inelco.mx');
-        });
-		
-		
-        
-            Reservacion::create([
-                    'nombre' => $request->nombre,
-                    'apellidos' => $request->apellidos,
-                    'empresa' => $request->empresa,
-                    'telefono' => $request->telefono,
-                    'email' => $request->email,
+        }*/
+
+        foreach ($request->nombre as $key => $v) {
+            $data = array('nombre' => $request->nombre[$key],
+                    'apellidos' => $request->apellidos[$key],
+                    'empresa' => $request->empresa[$key],
+                    'telefono' => $request->telefono[$key],
+                    'email' => $request->email[$key],
                     'evento' => $request->evento,
-                    'no_reservacion' => $request->no_reservacion,
-                    'link_webinar' => $request->link_webinar
-                ]);
-        
-        
-        //return $pdf->download('reservacion-presentacion.pdf');
+                    'no_reservacion' => 'GP' . $request->no_reservacion . 'US' . $key,
+                    'link_webinar' => $request->link_webinar);
+            Reservacion::create($data);
+
+            if($key == 0) {
+                 Mail::send('templates.email', [
+                    'evento' => $data['evento'],
+                    'lugar' =>$this->recibido->lugar,
+                    'fecha' =>$this->recibido->fecha,
+                    'horario' =>$this->recibido->horario,
+                    'precio' =>$this->recibido->paga,
+                    'no_reservacion' =>$data['no_reservacion'],
+                    'link_webinar' =>$data['link_webinar'],
+                    'nombrec' =>$data['nombre'].' '.$data['apellidos'],
+                    'empresa' =>$data['empresa'],
+                    'email' =>$data['email'],
+                    ],function ($message) {
+                    
+                    //remitente
+                    $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
+                    //asunto
+                    $message->subject('Reservacion al evento: '.$this->recibido->evento);
+                    //archivo adjunto
+                    //if(!$this->recibido->link_webinar){
+                    //    $message->attachData($this->arpdf, 'reservacion-presentacion.pdf');
+                    //}
+                    
+                    //receptor
+                    $message->to($data['email']->email, $data['nombre'].' '.$data['apellidos'].' | '.$data['empresa']);
+                    $message->cc('reservacion@inelco.mx');
+                });          
+            }
+        }
+
+
         return view('confirmar_registro', compact('request'));
     }
 
