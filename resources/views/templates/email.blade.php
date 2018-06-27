@@ -35,7 +35,7 @@
                                                                             <p><b>Inelco IT Solutions</b> le agradece su interés y reservación a nuestro evento. </p>
                                                                         </div>
                                                                         <div style="color: #777; font-family: Arial , Times , serif; font-size: 18.0px; line-height: 1.3;">
-                                                                            <p>{{ $nombrec}}</p>
+                                                                            <p>{{ $nombre.' '.$apellidos}}</p>
                                                                             <p>{{ $empresa }}</p>
                                                                         </div>
                                                                     </td>
@@ -44,15 +44,15 @@
                                                                     <td style="font-family: Arial , Helvetica , sans-serif;font-size: 12.0px;color: rgb(82,82,82);" valign="top" align="left">
                                                                         <br>
                                                                         @php
-                                                                            $total=$precio;
-                                                                            $total=$precio + ($precio*0.16);
+                                                                            $total=$paga;
+                                                                            $total=$paga + ($paga*0.16);
                                                                         @endphp
                                                                         <ul style="list-style: none; padding-left: 0px; line-height: 1.5;">
                                                                             <li>Evento: <b>{{ $evento}}</b></li>
                                                                             <li>Lugar: <b>{{ $lugar }}</b></li>
                                                                             <li>Fecha: <b>{{ $fecha }}</b></li>
                                                                             <li>Horario: <b> {{ $horario }}</b></li>
-                                                                            @if($precio>0)
+                                                                            @if($paga>0)
                                                                                 <li>Costo: <b>$ {{number_format( $total,2)}}</b> <em>IVA Incluido</em></li>
                                                                             @endif
                                                                             @if($link_webinar)
@@ -61,7 +61,7 @@
                                                                             <li>No. reservacion: <b> {{ $no_reservacion }}</b></li>
                                                                         </ul>
                                                                         
-                                                                        @if($precio>0)
+                                                                        @if($paga>0)
                                                                             <br>
                                                                             <hr>
                                                                             <h3 style="text-align: center;">Datos para realizar su pago (transferencia electrónica - deposito bancario)</h3>

@@ -72,6 +72,11 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-center">
+                                    <input name="enviarm[0]" type="checkbox" value="">
+                                    <span class="text-base">
+                                        Enviar email
+                                    </span>
+                                    <span style="display:block"></span>
                                     <button type="button" class="btnRemove">Eliminar</button>
                                     <p>===============================</p>
                                 </div>
