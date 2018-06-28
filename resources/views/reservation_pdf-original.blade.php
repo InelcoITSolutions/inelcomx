@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <title>Reservacion</title>
-    <link rel="stylesheet" type="text/css" href="../../public/css/reservation-pdf.css">
+    {{-- <link rel="stylesheet" type="text/css" href="../../public/css/reservation-pdf.css"> --}}
     {!! Html::style('css/reservation-pdf.css') !!} 
 </head>
 
@@ -25,11 +25,11 @@
         </div>
     </header>
     <div class="secciones">
-        <h1>{{ $data['evento'] }}</h1>
-        <h2>Reservacion <b> {{ $data['no_reservacion'] }}</b></h2>
+        <h1>{{ $recibi->evento }}</h1>
+        <h2>Reservacion <b>{{ $recibi->no_reservacion }}</b></h2>
         <p class="text-center">Hemos confirmado su reservación a nuestra evento para:</p>
-        <h3><b> {{ $data['nombre'] }}  {{ $data['apellidos'] }}</b></h3>
-        <h4><b> {{ $data['empresa'] }}</b></h4>
+        <h3><b>{{ $recibi->nombre }} {{ $recibi->apellidos }}</b></h3>
+        <h4><b>{{ $recibi->empresa }}</b></h4>
         <table class="info">
             <thead>
                 <tr>
@@ -40,13 +40,13 @@
             <tbody>
                 <tr>
                     <td>
-                        <p> {{ $data['lugar'] }}</p>
-                        <p> {{ $data['direccion'] }}</p>
-                        <p> {{ $data['ciudad'] }}</p>
+                        <p>{{ $recibi->lugar }}</p>
+                        <p>{{ $recibi->direccion }}</p>
+                        <p>{{ $recibi->ciudad }}</p>
                     </td>
                     <td>
-                        <p> {{ $data['fecha'] }}</p>
-                        <p> {{ $data['horario'] }}</p>
+                        <p>{{ $recibi->fecha }}</p>
+                        <p>{{ $recibi->horario }}</p>
                     </td>
                 </tr>
             </tbody>

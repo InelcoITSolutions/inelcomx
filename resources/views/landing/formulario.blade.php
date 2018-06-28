@@ -72,9 +72,15 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-center">
-                                    <input name="enviarm[0]" type="checkbox" value="">
+                                    <input  type="radio" name="enviarm[0]" value="pago" checked>
                                     <span class="text-base">
-                                        Enviar email
+                                        Enviar pago y reservación.
+                                    </span>
+                                    <span style="display:block"></span>
+
+                                    <input style="display:none" type="radio" name="enviarm[0]" value="reservacion" id="reservacionradio">
+                                    <span style="display:none" class="text-base" id="reservacionradio">
+                                        Enviar sólo reservación.
                                     </span>
                                     <span style="display:block"></span>
                                     <button type="button" class="btnRemove">Eliminar</button>
@@ -85,7 +91,7 @@
 
                     </div> <!-- FROM-CONTENT (JQuery Multifield) +=+ F I N A L-->
 
-                    <input style="display: none;" type="text" name="no_reservacion" value="{{date("y") . date("m") . date("d"). date("H"). date("i")}}">
+                    <input style="display: none;" type="text" name="no_reservacion" value="{{date("y") . date("z") . date("H"). date("i") . date("s") }}">
                     <input style="display: none;" type="text" name="evento" value="Curso {{ $landinfo->nombre_evento }}">
                     <input style="display: none;" type="text" name="fecha" value="{{ $landinfo->nombre_dias_evento }} {{ $landinfo->numero_dias_evento }} de {{ $meses[$m-1] }} de {{ $landinfo->anio }}">
                     <input style="display: none;" type="text" name="horario" value="{{ $landinfo->horario_evento }} hrs">

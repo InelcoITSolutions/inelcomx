@@ -515,10 +515,6 @@ class MyController extends Controller{
             'email' => 'required|max:255'
         ]);
 
-        //$this->recibido=$request;
-        /*if(!$this->recibido->link_webinar){
-            $this->arpdf=$this->pdf($request);
-        }*/
 
         foreach ($request->nombre as $key => $v) {
             $data = array('nombre' => $request->nombre[$key],
@@ -537,36 +533,58 @@ class MyController extends Controller{
                     'paga' => $request->paga,
                     'enviarc' => $request->enviarm[$key]
                 );
-            print_r($data);
-            //Reservacion::create($data);
-
-            //if($data['enviar'] == 'osn') {
+            //$this->recibido=$request;
+            //if(!$this->recibido->link_webinar){
+               // $this->arpdf=$this->pdf($data[]);
+            //}
+            
+            Reservacion::create($data);
+            
+            
+            if($data['enviarc'] == 'pago') {
                 
-                //  Mail::send('templates.email', $data, function ($message) use($data) {
+                 Mail::send('templates.email', $data, function ($message) use($data) {
                     
-                //     //remitente
-                //     $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
-                //     //asunto
-                //     $message->subject('Reservacion al evento: ');
-                //     //archivo adjunto
-                //     //if(!$this->recibido->link_webinar){
-                //     //    $message->attachData($this->arpdf, 'reservacion-presentacion.pdf');
-                //     //}
+                    //remitente
+                    $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
+                    //asunto
+                    $message->subject('Reservacion al evento: RESERVACIÓN Y PAGO | '. $data['evento']);
+                    //archivo adjunto
+                    if(!$data['link_webinar']){
+                        $pdf = \PDF::loadView('reservation_pdf', ['data' => $data])->stream('reservacion-presentacion.pdf');
+                        $message->attachData($pdf, 'reservacion-presentacion.pdf');
+                    }
                     
-                //     //receptor
-                //     $message->to($data['email'], 'Prueba email');
-                //     $message->cc('reservacion@inelco.mx');
-                // });          
-         //   }
+                    //receptor
+                    $message->to($data['email'], $data['nombre'].' '.$data['apellidos'].' | '.$data['empresa']);
+                    $message->cc('reservacion@inelco.mx');
+                });          
+           } else {
+                Mail::send('templates.email', $data, function ($message) use($data) {
+                    
+                    //remitente
+                    $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
+                    //asunto
+                    $message->subject('Reservacion al evento: SOLO RESERVACIÓN');
+                    //archivo adjunto
+                    if(!$data['link_webinar']){
+                        $pdf = \PDF::loadView('reservation_pdf', ['data' => $data])->stream('reservacion-presentacion.pdf');
+                        $message->attachData($pdf, 'reservacion-presentacion.pdf');
+                    }
+                    
+                    //receptor
+                    $message->to($data['email'], 'Prueba email');
+                    $message->cc('reservacion@inelco.mx');
+                });
+            }
         }
-
 
         return view('confirmar_registro', compact('request'));
     }
 
     public function pdf($recibido){   
         $recibi=$recibido;
-        $pdf     = \PDF::loadView('reservation_pdf', compact('recibi'));
+        $pdf     = \PDF::loadView('reservation_pdf', ['recibi' => $recibi]);
         return $pdf->stream('reservacion-presentacion.pdf');
     }
 

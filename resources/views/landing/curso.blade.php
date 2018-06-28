@@ -429,7 +429,7 @@
     <script src="/js/custom.js"></script>
     <script src="/js/seccion.js"></script>
     <script src="/js/jquery.countdown.js"></script>
-    <script src="/js/jquery.multifield.min.js"></script>
+    <script src="/js/jquery.multifield.js"></script>
     <script>
         $('#clock').countdown('{{ $landinfo->anio }}/{{ $landinfo->mes }}/{{ $dia }} {{ $hora }}:{{ $mins }}:00')
         .on('update.countdown', function(event) {
@@ -529,6 +529,7 @@
             btnAdd: '#btnAdd',
             btnRemove: '.btnRemove',
         });
+
     </script>
     
     
