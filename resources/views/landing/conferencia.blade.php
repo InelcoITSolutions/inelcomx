@@ -396,7 +396,7 @@
         </div>
     </section>
 
-    <section class="timing secciones" id="registrarme" style="display: none;"> 
+    <section class="timing secciones" id="registrarme"> 
         <div class="container">
             <div class="row">          
                 
