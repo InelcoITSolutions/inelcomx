@@ -218,7 +218,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wow fadeInDown text-center" data-wow-delay="0.9s">
-                            <a href="#registrarme" target="_blank" >
+                            <a href="#registrarme">
                                 <button class="btn btn-default btn-lg">Reservar mi lugar</button>
                             </a>
                             <p><span>Cupo limitado</span></p>
