@@ -208,9 +208,13 @@
                             La página a la que intentas ingresar no está disponible.
                         </h3>
                         <h3 class="title-h3" style="margin-top: -32px;color: #1E3662;">
-                            Por el momento tenemos problemas con el servidor, volvemos en un momento :)
+                            Has clic en el botón para volver a inicio o verifica la URL.
                         </h3>
-                            
+                            <a href="{{url('/')}}" id="btn-sae-prob">
+                                <button class="btn iis-btn vm-banner-prod">
+                                    Volver a inicio
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

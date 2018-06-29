@@ -174,7 +174,36 @@
     width: 60%;
 }
 
+/* =========================
+		BANNER ERROR 404
+	======================= */
 
+#banner-error404{
+	padding: 0;
+}
+
+#banner-error404 .fondo-gray{
+    padding: 5.5% 0;
+    color: #1E3662;
+    background: #fff; 
+}
+
+
+#banner-error404 .vm-banner-prod:hover{
+	color: white;
+	background: #1E3662;
+	border:1px solid #1E3662;
+}
+
+#banner-error404 .vm-banner-prod{
+	color: #1E3662;
+	background: #FFF;
+	border:1px solid #1E3662;
+}
+
+#banner-error404 .title-h1 {
+	font-weight: 600;
+}
 /* =========================
 		BANNER SERVICIOS
 	======================= */
