@@ -105,7 +105,7 @@
         <div class="container">
             <div class="row derechos-res">
                 <div class="col-md-12">
-                    <p>Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016</p>
+                    <p>Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2018</p>
                 </div>
             </div>
         </div>

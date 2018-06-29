@@ -358,7 +358,7 @@
         <div class="container">
             <div class="row derechos-res">
                 <div class="col-md-12">
-                    <p><span style="color:transparent;">C: {{ $landinfo->id_calendario}}</span> Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016<span style="color:transparent;"> L: {{ $landinfo->id}}</span></p>
+                    <p><span style="color:transparent;">C: {{ $landinfo->id_calendario}}</span> Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2018<span style="color:transparent;"> L: {{ $landinfo->id}}</span></p>
                 </div>
             </div>
         </div>
