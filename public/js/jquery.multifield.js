@@ -27,7 +27,7 @@
 		this.localize_i18n={
 		"multiField": {
 		  "messages": {
-			"removeConfirmation": "Are you sure you want to remove this section?"
+			"removeConfirmation": "¿Seguro que quieres eliminar este registro?"
 		  }
 		}
 	  };
@@ -88,6 +88,7 @@
 		cloneSection : function() {
 			// Allow to add only allowed max count of sections
 			if((this.config.max!==0)&&(this.getSectionsCount()+1)>this.config.max){
+				alert('Has llegado al límite de personas por grupo.');
 				return false;
 			}
 
@@ -96,15 +97,18 @@
 
 
 			// Clear input values
-			$('input[type!="radio"],textarea', newChild).each(function () {
+			$('.campo-formulario', newChild).each(function () {
 				$(this).val('');
 			});
 
 			// Fix radio buttons: update name [i] to [i+1]
 			newChild.find('input[type="radio"]').each(function(){var name=$(this).attr('name');$(this).attr('name',name.replace(/([0-9]+)/g,1*(name.match(/([0-9]+)/g))+1));});
+			
 			// Reset radio button selection
 			//$('input[type=radio]',newChild).attr('checked', false);
-			$("#reservacionradio", newChild).attr('checked', 'checked').css("display", "inline");;
+			
+			// Add check to a specific radio button with id
+			$("#reservacionradio", newChild).attr('checked', 'checked').css("display", "inline");
 
 			// Clear images src with reset-image-src class
 			$('img.reset-image-src', newChild).each(function () {
@@ -128,7 +132,7 @@
 				if(sectionsCount<=2){
 					$(this.config.btnRemove,this.$elem).hide();
 				}
-				section.slideUp('fast', function () {$(this).detach();});
+				section.slideUp('slow', function () {$(this).detach();});
 			}
 		},
 

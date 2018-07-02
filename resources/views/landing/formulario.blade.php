@@ -14,27 +14,14 @@
                     <input type="hidden" name="_method" value="POST">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-
                     <div class="form-content"><!-- FROM-CONTENT (JQuery Multifield) +=+ I N I C I O -->
-
-                        <!-- Botón de agregar más usuarios -->
-                        <div class="col-md-12">
-                            <div class="form-group text-center">
-                                <button type="button" id="btnAdd" class="">Agregar</button>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group text-center">
-                                <p>===============================</p>
-                            </div>
-                        </div>
-                        
-                        <div class="group"><!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ I N I C I O -->
+                        <hr class="accessory">
+                        <div class="grupo-reservacion"><!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ I N I C I O -->
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="nombre[]" type="text" class="form-control" placeholder="Nombre">
+                                        <input name="nombre[]" type="text" class="form-control campo-formulario" placeholder="Nombre">
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +29,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="apellidos[]" type="text" class="form-control" placeholder="Apellidos">
+                                        <input name="apellidos[]" type="text" class="form-control campo-formulario" placeholder="Apellidos">
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +37,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-office"></i></div>
-                                        <input name="empresa[]" type="text" class="form-control" placeholder="Empresa">
+                                        <input name="empresa[]" type="text" class="form-control" id="empresaf" placeholder="Empresa">
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +45,7 @@
                                 <div class="form-group">
                                     <div class="input-group ">
                                         <div class="input-group-addon"><i class="fa icon-mail"></i></div>
-                                        <input name="email[]" type="email" class="form-control" placeholder="Email">
+                                        <input name="email[]" type="email" class="form-control campo-formulario" placeholder="Email">
                                     </div>
                                 </div>
                             </div>
@@ -66,30 +53,39 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-mobile"></i></div>
-                                        <input name="telefono[]" type="tel" class="form-control" placeholder="Telefono">
+                                        <input name="telefono[]" type="tel" class="form-control campo-formulario" placeholder="Telefono">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-center">
-                                    <input  type="radio" name="enviarm[0]" value="pago" checked>
+                                    {{--
+                                    <input type="radio" name="enviarm[0]" value="pago" checked>
                                     <span class="text-base">
-                                        Enviar pago y reservación.
-                                    </span>
+                                                            Enviar pago y reservación.
+                                                        </span>
                                     <span style="display:block"></span>
-
                                     <input style="display:none" type="radio" name="enviarm[0]" value="reservacion" id="reservacionradio">
                                     <span style="display:none" class="text-base" id="reservacionradio">
-                                        Enviar sólo reservación.
-                                    </span>
-                                    <span style="display:block"></span>
-                                    <button type="button" class="btnRemove">Eliminar</button>
-                                    <p>===============================</p>
+                                                            Enviar sólo reservación.
+                                                        </span>
+                                    <span style="display:block"></span> --}}
+                                    <button type="button" class="btnRemove">Eliminar registro</button>
                                 </div>
                             </div>
-                        </div> <!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ F I N A L -->
+                            <hr class="accessory">
+                            <p>==================================</p>
+                        </div><!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ F I N A L -->
+                        
+                        <!-- Botón de agregar más usuarios -->
+                        <div class="col-md-12" style="display:none">
+                            <div class="form-group text-center">
+                                <button type="button" class="btnAdd">Agregar</button>
+                            </div>
+                        
+                        </div>
+                    </div><!-- FROM-CONTENT (JQuery Multifield) +=+ F I N A L-->
 
-                    </div> <!-- FROM-CONTENT (JQuery Multifield) +=+ F I N A L-->
 
                     <input style="display: none;" type="text" name="no_reservacion" value="{{date("y") . date("z") . date("H"). date("i") . date("s") }}">
                     <input style="display: none;" type="text" name="evento" value="Curso {{ $landinfo->nombre_evento }}">
@@ -100,6 +96,13 @@
                     <input style="display: none;" type="text" name="ciudad" value="{{ $landinfo->cp_evento }}, {{ $landinfo->ciudad }}, {{ $landinfo->estado }}">
                     <input style="display: none;" type="text" name="paga" value="{{ $landinfo->precio_evento }}">
                     
+                    <!-- Botón de agregar más usuarios -->
+                    <div class="col-md-12">
+                        <div class="form-group text-center">
+                            <button type="button" id="btnAgregarForm" class="">Agregar otro registro</button>
+                        </div>
+                    </div>
+
                     <div class="col-md-6 col-md-offset-3 checkbox">
                         <label>
                             <input id="iOptinEmail"  class="" type="checkbox" required>
@@ -119,4 +122,4 @@
                 {!! Form::close() !!} 
             </div>
         </div>
-    </section>
+</section>

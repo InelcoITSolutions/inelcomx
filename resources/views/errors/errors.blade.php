@@ -7,7 +7,7 @@
             <h4 class="modal-title" id="myModalLabel">Error</h4>
           </div>
           <div class="modal-body">
-            <strong>Whoops! Algo salio mal...</strong>
+            <strong>Whoops! Algo salio mal ...</strong>
             <br><br>
             <ul>
                 @foreach ($errors->all() as $error)

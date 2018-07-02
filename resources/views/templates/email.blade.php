@@ -44,8 +44,9 @@
                                                                     <td style="font-family: Arial , Helvetica , sans-serif;font-size: 12.0px;color: rgb(82,82,82);" valign="top" align="left">
                                                                         <br>
                                                                         @php
-                                                                            $total=$paga;
-                                                                            $total=$paga + ($paga*0.16);
+                                                                            $individual=$paga;
+                                                                            $individual=$paga + ($paga*0.16);
+                                                                            $total = $individual * $contador;
                                                                         @endphp
                                                                         <ul style="list-style: none; padding-left: 0px; line-height: 1.5;">
                                                                             <li>Evento: <b>{{ $evento}}</b></li>

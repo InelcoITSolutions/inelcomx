@@ -508,13 +508,23 @@ class MyController extends Controller{
         // $evento->reservacion = $request->evento;
 
         $this->validate($request, [
-            'nombre'=> 'required|max:255',
-            'apellidos' => 'required|max:255',
-            'empresa'=>'required|max:255',
-            'telefono' => 'required|max:30',
-            'email' => 'required|max:255'
+            'nombre.*'=> 'required|max:255',
+            'apellidos.*' => 'required|max:255',
+            'empresa.*'=>'required|max:255',
+            'telefono.*' => 'required|max:30',
+            'email.*' => 'required|max:255'
+        ], [
+            'nombre.*.required'=> 'Ingresa un nombre en todos los registros.',
+            'apellidos.*.required' => 'Ingresa un apellido en todos los registros.',
+            'empresa.*.required'=>'Ingresa el nombre de la empresa en todos los registros.',
+            'telefono.*.required' => 'Ingresa un teléfono en todos los registros.',
+            'email.*.required' => 'Ingresa un e-mail válido en todos los registros.'
         ]);
 
+        $i=0;
+        foreach ($request->nombre as $key => $v) {
+            $i++;
+        }
 
         foreach ($request->nombre as $key => $v) {
             $data = array('nombre' => $request->nombre[$key],
@@ -531,7 +541,8 @@ class MyController extends Controller{
                     'direccion' => $request->direccion,
                     'ciudad' => $request->ciudad,
                     'paga' => $request->paga,
-                    'enviarc' => $request->enviarm[$key]
+                    'enviarc' => $request->enviarm[$key],
+                    'contador' => $i
                 );
             //$this->recibido=$request;
             //if(!$this->recibido->link_webinar){
@@ -541,7 +552,7 @@ class MyController extends Controller{
             Reservacion::create($data);
             
             
-            if($data['enviarc'] == 'pago') {
+            // if($data['enviarc'] == 'pago') {
                 
                  Mail::send('templates.email', $data, function ($message) use($data) {
                     
@@ -559,26 +570,25 @@ class MyController extends Controller{
                     $message->to($data['email'], $data['nombre'].' '.$data['apellidos'].' | '.$data['empresa']);
                     $message->cc('reservacion@inelco.mx');
                 });          
-           } else {
-                Mail::send('templates.email', $data, function ($message) use($data) {
+           // } else {
+           //      Mail::send('templates.email', $data, function ($message) use($data) {
                     
-                    //remitente
-                    $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
-                    //asunto
-                    $message->subject('Reservacion al evento: SOLO RESERVACIÓN');
-                    //archivo adjunto
-                    if(!$data['link_webinar']){
-                        $pdf = \PDF::loadView('reservation_pdf', ['data' => $data])->stream('reservacion-presentacion.pdf');
-                        $message->attachData($pdf, 'reservacion-presentacion.pdf');
-                    }
+           //          //remitente
+           //          $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
+           //          //asunto
+           //          $message->subject('Reservacion al evento: SOLO RESERVACIÓN');
+           //          //archivo adjunto
+           //          if(!$data['link_webinar']){
+           //              $pdf = \PDF::loadView('reservation_pdf', ['data' => $data])->stream('reservacion-presentacion.pdf');
+           //              $message->attachData($pdf, 'reservacion-presentacion.pdf');
+           //          }
                     
-                    //receptor
-                    $message->to($data['email'], 'Prueba email');
-                    $message->cc('reservacion@inelco.mx');
-                });
-            }
+           //          //receptor
+           //          $message->to($data['email'], 'Prueba email');
+           //          $message->cc('reservacion@inelco.mx');
+           //      });
+           //  }
         }
-
         return view('confirmar_registro', compact('request'));
     }
 

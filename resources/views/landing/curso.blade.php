@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum‐scale=1.0, user‐scalable=no">
     <link rel="alternate" hreflang="es" href="http://www.inelco.mx/" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/landing/grupo-reservaciones.css">
     <link rel="stylesheet" href="/css/landing/curso.css">
     <link rel="stylesheet" href="/fonts/style.css">
     <link href="/css/component.css" rel="stylesheet">
@@ -522,16 +523,26 @@
         }
     </script>
 
-    
     <script>
-        $('.form-content').multifield({
-            section: '.group',
-            btnAdd: '#btnAdd',
-            btnRemove: '.btnRemove',
-        });
+        
+    $(document).ready(function(){
+        $('#btnAgregarForm').on('click', function () {
+                // do you stuff of button 1 click
+                $('.btnAdd').trigger("click"); 
+            });
+    });
 
     </script>
     
+    <script>
+        $('.form-content').multifield({
+            section: '.grupo-reservacion',
+            btnAdd: '.btnAdd',
+            btnRemove: '.btnRemove',
+            max: '3'
+        });
+
+    </script>
     
 
     @stack('add-js')
