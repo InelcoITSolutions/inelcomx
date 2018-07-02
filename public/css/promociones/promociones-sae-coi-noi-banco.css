@@ -61,7 +61,7 @@ ul li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 280px 0;
+    padding: 240px 0;
 }
 
 /*#promos-banner-wallpaper .promos-banner {
@@ -90,12 +90,11 @@ ul li {
     color: #4c8b2b;
 }
 
-/*.precio-banner {
+.precio-banner {
     position: relative;
-    left: 400px;
-    top: -100px;
+    top:-40px;
     width: 100%!important;
-}*/
+}
 
 
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,16 +77,19 @@
                     <div class="row">
                         <div class="col-md-3">
                             <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-sae-coi-noi-banco-logo.png" alt="" class="center-block" id="scnb">
+                            <h2 class="text-center vertical-center">
+                               ¡Obtén la máxima productividad de tu empresa!
+                            </h2>
                         </div>
                         {{-- <div class="col-md-4">
                             <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promos-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner">
                         </div>
                     </div>
                     <div class="row"> --}}
-                        <div class="col-md-8">
-                            <h2 class="text-center vertical-center">
-                               ¡Obtén la máxima productividad de tu empresa!
-                            </h2> {{-- <img src="/images-new/inelco/otros/inelco-promos-aspel-sae-banco-mayo.png" alt="" class="img-responsive precio-banner"> --}}
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner"> 
                         </div>
                     </div>
                 </div>

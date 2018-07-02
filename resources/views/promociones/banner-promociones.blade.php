@@ -5,7 +5,7 @@
                 <div class="col-md-6">
                     <div class="text-center center-block">
                         <h2 class="banner-title" align="center">
-                            En <span class="special-text">junio</span>
+                            En <span class="special-text">julio</span>
                             <br>
                             ¡Aprovecha nuestras <span class="special-text">grandes</span> promociones!
                         </h2>
