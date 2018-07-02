@@ -70,17 +70,16 @@
                                                             Enviar sólo reservación.
                                                         </span>
                                     <span style="display:block"></span> --}}
-                                    <button type="button" class="btnRemove">Eliminar registro</button>
+                                    <button type="button" class=" btn-danger btnRemove">Eliminar registro</button>
+                            <hr class="accessory">
                                 </div>
                             </div>
-                            <hr class="accessory">
-                            <p>==================================</p>
                         </div><!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ F I N A L -->
                         
                         <!-- Botón de agregar más usuarios -->
                         <div class="col-md-12" style="display:none">
                             <div class="form-group text-center">
-                                <button type="button" class="btnAdd">Agregar</button>
+                                <button type="button" class="btn-primary btnAdd">Agregar</button>
                             </div>
                         
                         </div>
