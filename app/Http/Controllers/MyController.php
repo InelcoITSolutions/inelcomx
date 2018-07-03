@@ -533,7 +533,8 @@ class MyController extends Controller{
                     'telefono' => $request->telefono[$key],
                     'email' => $request->email[$key],
                     'evento' => $request->evento,
-                    'no_reservacion' => 'GP' . $request->no_reservacion . 'US' . $key,
+                    'no_reservacion' => $request->no_reservacion .'-'. $key,
+                    'referencia' => $request->no_reservacion,
                     'link_webinar' => $request->link_webinar,
                     'fecha' => $request->fecha,
                     'horario' => $request->horario,
@@ -559,7 +560,7 @@ class MyController extends Controller{
                     //remitente
                     $message->from('reservacion@inelco.mx','Centro de Capacitacion Inelco');
                     //asunto
-                    $message->subject('Reservacion al evento: RESERVACIÓN Y PAGO | '. $data['evento']);
+                    $message->subject('Reservacion al evento: '. $data['evento']);
                     //archivo adjunto
                     if(!$data['link_webinar']){
                         $pdf = \PDF::loadView('reservation_pdf', ['data' => $data])->stream('reservacion-presentacion.pdf');

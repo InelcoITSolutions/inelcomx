@@ -539,11 +539,10 @@
             section: '.grupo-reservacion',
             btnAdd: '.btnAdd',
             btnRemove: '.btnRemove',
-            max: '3'
+            
         });
 
     </script>
-    
 
     @stack('add-js')
 </body>

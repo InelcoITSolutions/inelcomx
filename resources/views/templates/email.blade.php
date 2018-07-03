@@ -81,7 +81,7 @@
                                                                                                 <li>Cuenta:	92002154104</li>
                                                                                                 <li>CLABE: 014700920021541040</li>
                                                                                                 <li>Importe: <b>$ {{number_format( $total,2)}}</b></li>
-                                                                                                <li>No. Referencia: <b>{{$no_reservacion}}</b></li>
+                                                                                                <li>No. Referencia: <b>{{$referencia}}</b></li>
                                                                                             </ul>
                                                                                         </td>
                                                                                     </tr>

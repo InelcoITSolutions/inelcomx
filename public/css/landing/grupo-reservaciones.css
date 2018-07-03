@@ -1,9 +1,45 @@
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
 .accessory {
-  border:none;
-  height: 10px;
-  width: 55%;
-  height: 50px;
-  margin-top: 0;
-  box-shadow: 0 20px 50px -20px #333;
-  margin: -50px auto 10px; 
+  height: 6px;
+  background-image: radial-gradient(closest-side, rgba(179, 179, 179, 1.0), rgba(179, 179, 179, 0) 100%);
+  position: relative;
+  width: 600px;
+}
+
+
+.btn-add {
+  font-family: 'Open Sans', sans-serif;
+  color: #327dbb;
+  background-color: #fff;
+  border: 2px solid #327dbb;
+  padding: 12px 8px;
+  -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-add:hover {
+  color: #fff;
+  background-color: #327dbb;
+}
+
+.btn-delete {
+  font-family: 'Open Sans', sans-serif;
+  color: #d9534f;
+  background-color: #fff;
+  border: 2px solid #d9534f;
+  padding: 12px 8px;
+  -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-delete:hover {
+  color: #fff;
+  background-color: #d9534f;
 }

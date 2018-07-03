@@ -93,7 +93,7 @@
 			}
 
 			// Clone last section
-			var newChild = $(this.config.section, this.$elem).last().clone().attr('style', '').attr('id', '').fadeIn('fast');
+			var newChild = $(this.config.section, this.$elem).last().clone().attr('style', '').attr('id', '').fadeIn();
 
 
 			// Clear input values

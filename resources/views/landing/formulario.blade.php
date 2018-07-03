@@ -70,7 +70,7 @@
                                                             Enviar sólo reservación.
                                                         </span>
                                     <span style="display:block"></span> --}}
-                                    <button type="button" class=" btn-danger btnRemove">Eliminar registro</button>
+                                    <button type="button" class=" btn-delete btnRemove">Eliminar registro</button>
                             <hr class="accessory">
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
                         <!-- Botón de agregar más usuarios -->
                         <div class="col-md-12" style="display:none">
                             <div class="form-group text-center">
-                                <button type="button" class="btn-primary btnAdd">Agregar</button>
+                                <button type="button" class="btnAdd">Agregar</button>
                             </div>
                         
                         </div>
@@ -98,7 +98,7 @@
                     <!-- Botón de agregar más usuarios -->
                     <div class="col-md-12">
                         <div class="form-group text-center">
-                            <button type="button" id="btnAgregarForm" class="">Agregar otro registro</button>
+                            <button type="button" id="btnAgregarForm" class="btn-add">Agregar registro</button>
                         </div>
                     </div>
 
