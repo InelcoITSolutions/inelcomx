@@ -7,23 +7,67 @@ hr {
   box-sizing: border-box;
 }
 .accessory {
-  height: 6px;
+  height: 7px;
   background-image: radial-gradient(closest-side, rgba(179, 179, 179, 1.0), rgba(179, 179, 179, 0) 100%);
   position: relative;
-  width: 600px;
+  width: 680px;
 }
 
+.col-md-12 .accessory {
+  margin-top: 4px;
+}
 
 .btn-add {
   font-family: 'Open Sans', sans-serif;
-  color: #327dbb;
-  background-color: #fff;
-  border: 2px solid #327dbb;
-  padding: 12px 8px;
-  -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  color:#fff;
+  background-color: #5cb85c;
+  border:none;
+  border-radius: 999em;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: -10px;
+  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+.btn-add:hover {
+  background-color: #3d8f3d;
+}
+
+.btn-delete {
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
+  background-color: #d9534f;
+  border:none;
+  border-radius: 999em;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn-delete:hover {
+  background-color: #d1332e;
+}
+
+.label-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #777;
+}
+
+/*
 .btn-add:hover {
   color: #fff;
   background-color: #327dbb;
@@ -35,11 +79,11 @@ hr {
   background-color: #fff;
   border: 2px solid #d9534f;
   padding: 12px 8px;
-  -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .btn-delete:hover {
   color: #fff;
   background-color: #d9534f;
-}
+}*/

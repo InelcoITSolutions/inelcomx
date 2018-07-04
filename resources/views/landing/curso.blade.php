@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/landing/grupo-reservaciones.css">
     <link rel="stylesheet" href="/css/landing/curso.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="/fonts/style.css">
     <link href="/css/component.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/animate.css">
@@ -416,7 +417,15 @@
         <div class="container">
             <div class="row derechos-res">
                 <div class="col-md-12">
-                    <p><span style="color:transparent;">C: {{ $landinfo->id_calendario}}</span> Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016<span style="color:transparent;"> L: {{ $landinfo->id}}</span></p>
+                    <p class="text-center">
+                        <span class="id-landing" style="display:inline;color:transparent;">C: {{ $landinfo->id_calendario}}</span> 
+                        Copyright © Todos los Derechos Reservados 
+                        <span class="span-copyright" style="display: none;"></span> 
+                        Inelco IT Solutions S.A. de C.V. 
+                        <span class="span-copyright" style="display: none;"></span> 
+                        Monterrey, México 2018
+                        <span class="id-landing" style="display:inline;color:transparent;"> L: {{ $landinfo->id}}</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -541,8 +550,16 @@
             btnRemove: '.btnRemove',
             
         });
-
     </script>
+    <script>
+        $(document).ready(function() {
+            if($(window).width() < 697) {
+                $(".id-landing").css("display", "none");
+                $(".span-copyright").css("display", "block");
+            }
+        });
+</script>
+
 
     @stack('add-js')
 </body>

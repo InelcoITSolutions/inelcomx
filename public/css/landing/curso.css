@@ -40,7 +40,8 @@ a:active, a:active *, button:active, button:active *, a, button {
     bottom:50%;
     right:20px;
     border: 1px #1E3662 solid;
-	  border-radius: 50%;
+	border-radius: 50%;
+	z-index: 999;
 }
 
 .ir-arriba:hover{

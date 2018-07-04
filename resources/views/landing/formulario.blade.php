@@ -57,8 +57,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group text-center">
+                            <div class="col-md-6 col-md-offset-3 btnRemove">
+                                <div class="form-group">
                                     {{--
                                     <input type="radio" name="enviarm[0]" value="pago" checked>
                                     <span class="text-base">
@@ -70,19 +70,20 @@
                                                             Enviar sólo reservación.
                                                         </span>
                                     <span style="display:block"></span> --}}
-                                    <button type="button" class=" btn-delete btnRemove">Eliminar registro</button>
-                            <hr class="accessory">
+                                    <button type="button" class="btn-delete ">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <label class="label-btn">Eliminar registro</label>
                                 </div>
+                            </div>
+                            <div class="col-md-12">
+                                <hr class="accessory">
                             </div>
                         </div><!-- GRUPO A MULTIPLICAR (JQuery Multifield) +=+ F I N A L -->
                         
                         <!-- Botón de agregar más usuarios -->
-                        <div class="col-md-12" style="display:none">
-                            <div class="form-group text-center">
-                                <button type="button" class="btnAdd">Agregar</button>
-                            </div>
-                        
-                        </div>
+                        <button style="display:none" type="button" class="btnAdd">
+                        </button>
                     </div><!-- FROM-CONTENT (JQuery Multifield) +=+ F I N A L-->
 
 
@@ -96,15 +97,19 @@
                     <input style="display: none;" type="text" name="paga" value="{{ $landinfo->precio_evento }}">
                     
                     <!-- Botón de agregar más usuarios -->
-                    <div class="col-md-12">
-                        <div class="form-group text-center">
-                            <button type="button" id="btnAgregarForm" class="btn-add">Agregar registro</button>
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form-group">
+                            <button type="button" id="btnAgregarForm" class="btn-add">
+                                <i class="fas fa-plus"></i>    
+                            </button>
+                            <label class="label-btn">Agregar registro</label>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-md-offset-3 checkbox">
+                    <div class="col-md-12 checkbox">
+                        <div class="text-center">
                         <label>
-                            <input id="iOptinEmail"  class="" type="checkbox" required>
+                            <input id="iOptinEmail" type="checkbox" required>
                             <span class="text-base">
                                 Acepto los
                                 <a href="/images/Términos y Políticas de Cursos.pdf" target="_blank" style="text-decoration: none">
@@ -112,10 +117,11 @@
                                 </a>
                             </span>
                         </label>
+                        </div>
                      </div>
                     <div class="col-md-12">
                         <div class="form-group text-center" >
-                            {!! Form::button('Registrarme',['type'=>'submit', 'class'=>'btn btn-lg', 'id'=>'subm']) !!}
+                            {!! Form::button('Registrar',['type'=>'submit', 'class'=>'btn btn-lg', 'id'=>'subm']) !!}
                         </div>
                     </div>
                 {!! Form::close() !!} 
