@@ -536,9 +536,9 @@
         
     $(document).ready(function(){
         $('#btnAgregarForm').on('click', function () {
-                // do you stuff of button 1 click
-                $('.btnAdd').trigger("click"); 
-            });
+            // do you stuff of button 1 click
+            $('.btnAdd').trigger("click"); 
+        });
     });
 
     </script>
@@ -551,6 +551,7 @@
             
         });
     </script>
+
     <script>
         $(document).ready(function() {
             if($(window).width() < 697) {
@@ -558,9 +559,32 @@
                 $(".span-copyright").css("display", "block");
             }
         });
-</script>
+    </script>
 
-
+    <script>
+$(document).ready(function() {
+  
+$(function() {
+    $('#btnAgregarForm').attr('disabled', 'disabled');
+});
+ 
+$('input[type=text]').keyup(function() {
+        
+    if ($('.nombre').val() !=''&&
+    $('.apellidos').val() != '' &&
+    $('.empresa').val() != ''&&
+        $('.email').val() != ''&&
+    $('.tel').val() != '') {
+      
+        $('#btnAgregarForm').removeAttr('disabled');
+        $('.label-btn').removeClass('label-btn-disabled');
+    } else {
+        $('#btnAgregarForm').attr('disabled', 'disabled');
+        $('.label-btn').addClass('label-btn-disabled');
+    }
+});
+});
+    </script>
     @stack('add-js')
 </body>
 </html>

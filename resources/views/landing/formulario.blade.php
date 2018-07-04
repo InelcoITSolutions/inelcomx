@@ -21,7 +21,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="nombre[]" type="text" class="form-control campo-formulario" placeholder="Nombre">
+                                        <input name="nombre[]" type="text" class="form-control campo-formulario nombre" placeholder="Nombre" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="apellidos[]" type="text" class="form-control campo-formulario" placeholder="Apellidos">
+                                        <input name="apellidos[]" type="text" class="form-control campo-formulario apellidos" placeholder="Apellidos" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-office"></i></div>
-                                        <input name="empresa[]" type="text" class="form-control" id="empresaf" placeholder="Empresa">
+                                        <input name="empresa[]" type="text" class="form-control empresa" id="empresaf" placeholder="Empresa" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                 <div class="form-group">
                                     <div class="input-group ">
                                         <div class="input-group-addon"><i class="fa icon-mail"></i></div>
-                                        <input name="email[]" type="email" class="form-control campo-formulario" placeholder="Email">
+                                        <input name="email[]" type="text" class="form-control campo-formulario email" placeholder="Email" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-mobile"></i></div>
-                                        <input name="telefono[]" type="tel" class="form-control campo-formulario" placeholder="Telefono">
+                                        <input name="telefono[]" type="text" class="form-control campo-formulario tel" placeholder="Telefono: (000) 1234-567" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -99,10 +99,10 @@
                     <!-- Botón de agregar más usuarios -->
                     <div class="col-md-6 col-md-offset-3">
                         <div class="form-group">
-                            <button type="button" id="btnAgregarForm" class="btn-add">
+                            <button type="button" id="btnAgregarForm" class="btn-add" disabled>
                                 <i class="fas fa-plus"></i>    
                             </button>
-                            <label class="label-btn">Agregar registro</label>
+                            <label class="label-btn label-btn-disabled">Agregar registro</label>
                         </div>
                     </div>
 
@@ -128,3 +128,4 @@
             </div>
         </div>
 </section>
+
