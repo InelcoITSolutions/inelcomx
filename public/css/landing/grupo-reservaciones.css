@@ -31,6 +31,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   margin-top: -10px;
+    margin-left:4px;
   -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -52,6 +53,7 @@ hr {
   position: relative;
   cursor: pointer;
   display: inline-block;
+  margin-left:4px;
   -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -65,25 +67,5 @@ hr {
   font-weight: 300;
   font-size: 1.1em;
   color: #777;
+  margin-left:12px;
 }
-
-/*
-.btn-add:hover {
-  color: #fff;
-  background-color: #327dbb;
-}
-
-.btn-delete {
-  font-family: 'Open Sans', sans-serif;
-  color: #d9534f;
-  background-color: #fff;
-  border: 2px solid #d9534f;
-  padding: 12px 8px;
-  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-.btn-delete:hover {
-  color: #fff;
-  background-color: #d9534f;
-}*/
