@@ -27,6 +27,23 @@ a:active, a:active *, button:active, button:active *, a, button {
 	margin: 0 auto;
 }
 */
+.separador {
+	display:block;	
+	width: 8px;
+	height: 1px;
+	margin-left: 32px;
+	background: red;
+}
+
+.modal-header .close {
+	opacity: 1;
+	color:#ff1a1a !important;
+	font-size: 1.6em;
+}
+
+.modal-header .close:hover {
+	color:#b30000 !important;
+}
 
 	/*SUBIR*/
 .ir-arriba {

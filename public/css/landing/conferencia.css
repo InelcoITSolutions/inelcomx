@@ -28,6 +28,16 @@ a:active, a:active *, button:active, button:active *, a, button {
 }
 */
 
+.modal-header .close {
+	opacity: 1;
+	color:#ff1a1a !important;
+	font-size: 1.6em;
+}
+
+.modal-header .close:hover {
+	color:#b30000 !important;
+}
+
 	/*SUBIR*/
 .ir-arriba {
     display:none;

@@ -76,5 +76,6 @@ hr {
 }
 
 .label-btn-disabled {
-  text-decoration: line-through;
+  font-weight: 200;
+  color:#b3b3b3;
 }

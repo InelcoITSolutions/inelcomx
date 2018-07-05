@@ -21,7 +21,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="nombre[]" type="text" class="form-control campo-formulario nombre" placeholder="Nombre: Juan" autocomplete="off" required>
+                                        <input name="nombre[]" type="text" class="form-control campo-formulario nombre" placeholder="Nombre" autocomplete="off" required style="text-transform: capitalize;"> 
                                     </div>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="apellidos[]" type="text" class="form-control campo-formulario apellidos" placeholder="Apellidos: Peréz" autocomplete="off" required>
+                                        <input name="apellidos[]" type="text" class="form-control campo-formulario apellidos" placeholder="Apellidos" autocomplete="off" required style="text-transform: capitalize;">
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-office"></i></div>
-                                        <input name="empresa[]" type="text" class="form-control empresa" id="empresaf" placeholder="Empresa: Inelco IT Solutions" autocomplete="off" required>
+                                        <input name="empresa[]" type="text" class="form-control empresa" id="empresaf" placeholder="Empresa" autocomplete="off" onkeyup="var start = this.selectionStart;var end = this.selectionEnd;this.value = this.value.toUpperCase();this.setSelectionRange(start, end);" required>
                                     </div>
                                 </div>
                             </div>
@@ -45,15 +45,23 @@
                                 <div class="form-group">
                                     <div class="input-group ">
                                         <div class="input-group-addon"><i class="fa icon-mail"></i></div>
-                                        <input name="email[]" type="email" class="form-control campo-formulario email" placeholder="Email: mail@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off" required>
+                                        <input name="email[]" type="email" class="form-control campo-formulario email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-md-offset-3">
+                            <div class="col-md-4 col-md-offset-3">
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-mobile"></i></div>
-                                        <input name="telefono[]" type="text" class="form-control campo-formulario tel" placeholder="Telefono: 0001234567 (10 dígitos)" autocomplete="off" maxlength="10" pattern="[0-9]{10}" required>
+                                        <input name="telefono[]" type="tel" class="form-control campo-formulario tel" placeholder="Teléfono (10 dígitos)" autocomplete="off" maxlength="10" pattern="[0-9]{10}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa icon-mobile"></i></div>
+                                        <input name="ext[]" type="text" class="form-control campo-formulario ext" placeholder="Extensión" autocomplete="off" maxlength="5" pattern="[0-9]{0,6}">
                                     </div>
                                 </div>
                             </div>
@@ -129,3 +137,56 @@
         </div>
 </section>
 
+@push('add-js-form')
+ <script>
+    //Script para agregar otro registro al formulario
+    $(document).ready(function() {
+        $('#btnAgregarForm').on('click', function() {
+            $('.btnAdd').trigger("click");
+        });
+    });
+</script>
+<script>
+    //Script que llama al plugin JQuery Multifield y clona el formulario
+    $('.form-content').multifield({
+        section: '.grupo-reservacion',
+        btnAdd: '.btnAdd',
+        btnRemove: '.btnRemove',
+
+    });
+</script>
+<script>
+    //Script que modifica la vista de la sección copyright
+    $(document).ready(function() {
+        if ($(window).width() < 697) {
+            $(".id-landing").css("display", "none");
+            $(".span-copyright").css("display", "block");
+        }
+    });
+</script>
+<script>
+    //Script que activa el botón de agregar otro registro al completar los input
+    $(document).ready(function() {
+
+        $(function() {
+            $('#btnAgregarForm').attr('disabled', 'disabled');
+        });
+
+        $('input[type=text], input[type=tel], input[type=email]').keyup(function() {
+
+            if ($('.nombre').val() != '' &&
+                $('.apellidos').val() != '' &&
+                $('.empresa').val() != '' &&
+                $('.email').val() != '' &&
+                $('.tel').val() != '') {
+
+                $('#btnAgregarForm').removeAttr('disabled');
+                $('.label-btn').removeClass('label-btn-disabled');
+            } else {
+                $('#btnAgregarForm').attr('disabled', 'disabled');
+                $('.label-btn').addClass('label-btn-disabled');
+            }
+        });
+    });
+</script>
+@endpush

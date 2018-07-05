@@ -502,11 +502,6 @@ class MyController extends Controller{
 
     public function reservacion(Request $request){
 
-        // $usuarios = new Usuario;
-
-        // $usuarios->reservacion = $request->no_reservacion;
-        // $evento->reservacion = $request->evento;
-
         $this->validate($request, [
             'nombre.*'=> 'required|max:255',
             'apellidos.*' => 'required|max:255',
@@ -531,9 +526,10 @@ class MyController extends Controller{
                     'apellidos' => $request->apellidos[$key],
                     'empresa' => $request->empresa[$key],
                     'telefono' => $request->telefono[$key],
+                    'ext' => $request->ext[$key],
                     'email' => $request->email[$key],
                     'evento' => $request->evento,
-                    'no_reservacion' => $request->no_reservacion .'-'. $key,
+                    'no_reservacion' => $request->no_reservacion .'-'. ($key + 1),
                     'referencia' => $request->no_reservacion,
                     'link_webinar' => $request->link_webinar,
                     'fecha' => $request->fecha,
@@ -545,6 +541,13 @@ class MyController extends Controller{
                     'enviarc' => $request->enviarm[$key],
                     'contador' => $i
                 );
+
+            if($data['ext']) {
+                $data['telefono'] = $data['telefono'] . 'ext' . $data['ext'] ;
+            }
+            $data['nombre'] = ucwords($data['nombre']);
+            $data['apellidos'] = ucwords($data['apellidos']);
+
             //$this->recibido=$request;
             //if(!$this->recibido->link_webinar){
                // $this->arpdf=$this->pdf($data[]);

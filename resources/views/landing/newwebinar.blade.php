@@ -23,7 +23,7 @@
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times-circle"></i></span></button>
                     <h4 class="modal-title text-center" id="gridSystemModalLabel">Evento realizado</h4>
                 </div>
                 <div class="modal-body">
