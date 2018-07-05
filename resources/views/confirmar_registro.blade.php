@@ -26,10 +26,10 @@
                 </div>
                 <div class="col-md-6">
                     <br>
+                    <p>Te hemos enviado un correo electrónico con tu número de reservación e instrucciones para que completes tu registro.
                     <br>
-                    <p>Te hemos enviado un correo electrónico con tu numero de reservación e instrucciones para que completes tu registro.
                     <br>
-                    (En caso de no recibir el correo verifique en la carpeta de no deseado o comuniquese al teléfono: 81 1352 2020)
+                    (En caso de no recibir el correo electrónico verifique en la carpeta de no deseado o comuníquese al teléfono: 81 1352 2020)
                     </p>
                 </div>
             </div>

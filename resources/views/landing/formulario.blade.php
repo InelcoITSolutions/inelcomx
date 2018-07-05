@@ -21,7 +21,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="nombre[]" type="text" class="form-control campo-formulario nombre" placeholder="Nombre" autocomplete="off" required>
+                                        <input name="nombre[]" type="text" class="form-control campo-formulario nombre" placeholder="Nombre: Juan" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-v-card"></i></div>
-                                        <input name="apellidos[]" type="text" class="form-control campo-formulario apellidos" placeholder="Apellidos" autocomplete="off" required>
+                                        <input name="apellidos[]" type="text" class="form-control campo-formulario apellidos" placeholder="Apellidos: Peréz" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-office"></i></div>
-                                        <input name="empresa[]" type="text" class="form-control empresa" id="empresaf" placeholder="Empresa" autocomplete="off" required>
+                                        <input name="empresa[]" type="text" class="form-control empresa" id="empresaf" placeholder="Empresa: Inelco IT Solutions" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                 <div class="form-group">
                                     <div class="input-group ">
                                         <div class="input-group-addon"><i class="fa icon-mail"></i></div>
-                                        <input name="email[]" type="text" class="form-control campo-formulario email" placeholder="Email" autocomplete="off" required>
+                                        <input name="email[]" type="email" class="form-control campo-formulario email" placeholder="Email: mail@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off" required>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa icon-mobile"></i></div>
-                                        <input name="telefono[]" type="text" class="form-control campo-formulario tel" placeholder="Telefono: (000) 1234-567" autocomplete="off" required>
+                                        <input name="telefono[]" type="text" class="form-control campo-formulario tel" placeholder="Telefono: 0001234567 (10 dígitos)" autocomplete="off" maxlength="10" pattern="[0-9]{10}" required>
                                     </div>
                                 </div>
                             </div>
