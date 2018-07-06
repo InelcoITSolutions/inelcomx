@@ -643,9 +643,9 @@
                                     <center><img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" alt="Aspel NOI Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
-                                    <h3 class="title-h3">Aspel NOI 8.0 - R12</h3>
+                                    <h3 class="title-h3">Aspel NOI 8.0 - R13</h3>
                                     <h4 class="title-h4">Sistema de Nómina Integral</h4>
-                                    <p><b>Actualizado:  29 / diciembre / 2017</b></p> 
+                                    <p><b>Actualizado:  06 / julio / 2018</b></p> 
                                     <p>Controla y automatiza todos los aspectos de la nómina y emite recibos de nómina electrónicos de acuerdo con la Reforma Fiscal vigente. Realiza un fácil, correcto y preciso cálculo de impuestos y aportaciones de seguridad social.</p>
                                     <ul style="line-height:1.5em;height: auto;">
                                         <li>Una vez instalado puedes utilizarlo durante 30 días sin costo, al concluir este periodo el Sistema no funcionará sino hasta que adquieras el Número de Serie Electrónico. Si necesitas una licencia <a href="{{ url('contacto') }}">Contáctanos</a></li>
@@ -658,7 +658,7 @@
                     </div>
                     <div id="updates-noi" class="tab-pane fade">
                         <div class="container-fluid ">
-                            <div class="row row-download">
+{{--                             <div class="row row-download">
                                 <div class="col-md-9">
                                     <h4 class="title-h4">Aspel-NOI 8.0 Reinstalable 11</h4>
                                     <b>Actualizado: 13 / 12 / 2017</b>
@@ -666,7 +666,7 @@
                                 <div class="col-md-3">
                                     <p><span>213  MB</span><a href="http://ftp.aspel.com/Download/noi/reinstal/Aspel-NOI80_R11.exe" title="Descargar NOI 8.0 R11" class="a-download"></a></p>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="row row-download">
                                 <div class="col-md-9">
                                     <h4 class="title-h4">Aspel-NOI 7.0 Reinstalable 23</h4>
