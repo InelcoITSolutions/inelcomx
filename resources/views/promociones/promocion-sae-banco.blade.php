@@ -3,6 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
+    {{-- Datos para share de facebook--}}
+    <meta property="og:url" content="https://www.inelco.mx/promocion-sae-banco" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Promociones de Aspel SAE y Aspel BANCO | Inelco IT Solutions" />
+    <meta property="og:description" content="El máximo control de tus movimientos bancarios y procesos administrativos." />
+    <meta property="og:image" content="http://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+    <meta property="og:image:secure_url" content="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+    <link href="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" rel="image_src" />
+    {{-- GENERALES --}}
     <meta content="Dedicados a ofrecer soluciones tecnológicas y consultoría de calidad para asesorar e implementar sistemas aspel, de restaurantes, facturación y CRM para pequeñas y medianas empresas." name="description">
     <meta content="soluciones de tecnología, consultoría, asesoria, capacitación, sistemas, aspel, cursos, national-soft, soluciones para restaurantes, sistemas de administración, aspel, soft-restaurant" name="keywords">
     <meta content="Inelco IT Solutions S.A de C.V" name="author">
@@ -332,12 +342,22 @@
                         <center><img src="/images/iis_logo_blanco.png" class="img-responsive"></center>
                         <p>Soluciones de tecnología para tu empresa</p>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 center-block">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <h6>¡Síguenos!</h6>
                         <hr>
                         <div class="center-block" style="margin-left: 38%">
-                            <a id="twi" href="https://twitter.com/inelcoit" target="_blank"><span class="icon-twitter"></span></a>
-                            <a href="https://www.facebook.com/inelcoitsolutions/" target="_blank"><span class="icon-facebook"></span></a>
+                            <a id="twi" href="https://twitter.com/inelcoit" target="_blank">
+                                <span class="icon-twitter"></span>
+                            </a>
+                            <a href="https://www.facebook.com/inelcoitsolutions/" target="_blank">
+                                <span class="icon-facebook"></span>
+                            </a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" >Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <br>
+                            <div class="fb-like" data-href="https://www.inelco.mx/promocion-sae-banco" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
@@ -441,7 +461,22 @@
             </div>
         </div>
     </section>
-     <script type='text/javascript'>function zs_open_window(url, height, width){var leftPos = 0;var topPos = 0;if(screen){leftPos = (screen.width - width) / 2;topPos = (screen.height - height) / 2;window.open(url, null, 'width='+width+',height='+height+',left='+leftPos+',top='+topPos+', toolbar=0, location=0, status=1, scrollbars=1, resizable=1');}}</script>
+
+    <!-- Footer FINAL -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- scripts -->
+
+    <script type='text/javascript'>function zs_open_window(url, height, width){var leftPos = 0;var topPos = 0;if(screen){leftPos = (screen.width - width) / 2;topPos = (screen.height - height) / 2;window.open(url, null, 'width='+width+',height='+height+',left='+leftPos+',top='+topPos+', toolbar=0, location=0, status=1, scrollbars=1, resizable=1');}}</script>
     <script src="/js/jquery.js"></script>
     <script src="/js/banner.js"></script>
     <script src="/js/animate-slider.js"></script>

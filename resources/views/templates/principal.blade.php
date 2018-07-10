@@ -232,7 +232,11 @@
     @include('errors.errors')
     
     @yield('contenido')
-    <span class="ir-arriba icon-arrow-up2"></span> @include('templates.footer')
+    
+    <span class="ir-arriba icon-arrow-up2"></span>
+
+    @include('templates.footer')
+    
     <script src="/js/jquery-1.12.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/header.js"></script>
