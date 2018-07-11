@@ -34,7 +34,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="center-img text-center center-block">
-						<img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" alt="Aspel COI Logo" class="img-responsive first">
+						<img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" width="60%"  alt="Aspel COI Logo" class="img-responsive first">
 					</div>
 				</div>
 			</div>

@@ -403,17 +403,17 @@
         <div class="row interfaz">
                 <h4 class="title-h4" style="color:#03aebd">Interfaz con los Sistemas Aspel</h4>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-sae')}}"><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="SAE" class="img-responsive logo-produ"></a></div>  
+                    <div class="center-block"><a href="{{url('aspel-sae')}}"><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%"  alt="SAE" class="img-responsive logo-produ"></a></div>  
                     <h5 class="title-h5"><a href="{{url('aspel-sae')}}" style="text-decoration:none;color:#cb0c12;">Aspel SAE</a></h5>
                     <p class="p-css">Genera las pólizas correspondientes a las ventas, compras, movimientos al inventario, abonos y cargos de cuentas por cobrar y por pagar.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-banco')}}" style="text-decoration:none;color:#32912f;">Aspel BANCO</a></h5>
                     <p class="p-css">Logra que todos los movimientos bancarios registrados actualicen en línea los saldos de las cuentas por cobrar y por pagar.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-noi')}}"><img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" alt="NOI" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-noi')}}"><img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" width="60%"  alt="NOI" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-noi')}}" style="text-decoration:none;color:#dd5d07;">Aspel NOI</a></h5>
                     <p class="p-css">Genera las pólizas modelo correspondientes a las provisiones y pagos de nómina, ya sea de forma general o desglosadas por trabajador, departamento o cuenta auxiliar.</p>
                 </div>

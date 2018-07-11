@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="center-img text-center center-block">
-                        <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="Aspel SAE Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%" alt="Aspel SAE Logo" class="img-responsive first">
                     </div>
                 </div>
             </div>

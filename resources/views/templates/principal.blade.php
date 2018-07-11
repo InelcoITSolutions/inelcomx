@@ -81,6 +81,8 @@
     </header>
     <!-- /header -->
 
+{{-- Icono de acutalización: <i id="actualizacion-pagina" class="fa fa-bell" aria-hidden="true"></i> --}}
+
     <nav class="navbar navbar-default ">
         <!-- navbar-fixed-top -->
         <div class="container-fluid">
@@ -100,16 +102,16 @@
                     <li esta="Inicio"><a href="{{ url('/')}}"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>
                     <li esta="Servicios"><a href="{{ url('/servicios')}}">Servicios</a></li>
                     <li esta="Productos" class="dropdown ">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i id="actualizacion-pagina" class="fa fa-bell" aria-hidden="true"></i> Productos<b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Productos<b class="caret"></b>
                                                 </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                                <a href="{{ url('aspel')}}"><i id="actualizacion-pagina" class="fa fa-bell" aria-hidden="true"></i> Aspel</a>
+                                <a href="{{ url('aspel')}}">Aspel</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{ url('aspel-sae')}}"><i id="actualizacion-pagina" class="fa fa-bell" aria-hidden="true"></i> SAE</a></li>
+                                    <li><a href="{{ url('aspel-sae')}}">SAE</a></li>
                                     <li><a href="{{ url('aspel-coi')}}">COI</a></li>
                                     <li><a href="{{ url('aspel-noi')}}">NOI</a></li>
-                                    <li><a href="{{ url('aspel-banco')}}"><i id="actualizacion-pagina" class="fa fa-bell" aria-hidden="true"></i> BANCO</a></li>
+                                    <li><a href="{{ url('aspel-banco')}}">BANCO</a></li>
                                     <li><a href="{{ url('aspel-caja')}}">CAJA</a></li>
                                     <li><a href="{{ url('aspel-prod')}}">PROD</a></li>
                                     <li><a href="{{ url('aspel-facture')}}">FACTURE</a></li>

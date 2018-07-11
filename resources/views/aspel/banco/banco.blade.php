@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" alt="Aspel BANCO Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="Aspel BANCO Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>

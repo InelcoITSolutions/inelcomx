@@ -266,17 +266,17 @@
             <div class="row interfaz">
                 <h4 class="title-h4" style="color:#32912f">Interfaz con los Sistemas Aspel</h4>
                 <div class="col-md-4">
-                    <div class="center-block"><a href="{{url('aspel-coi')}}"><img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" alt="COI" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-coi')}}"><img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" width="60%"  alt="COI" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-coi')}}" style="text-decoration:none;color:#009cb1;">Aspel COI</a></h5>
                     <p class="p-css">para todos los movimientos capturados en Aspel-BANCO, se genera automáticamente la póliza correspondiente.</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="center-block"><a href="{{url('aspel-noi')}}"><img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-noi')}}"><img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-noi')}}" style="text-decoration:none;color:#dd5d07;">Aspel NOI</a></h5>
                     <p class="p-css">Genera automáticamente los cheques para el pago de las nóminas..</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="center-block"><a href="{{url('aspel-sae')}}"><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-sae')}}"><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-sae')}}" style="text-decoration:none;color:#cb0c12;">Aspel SAE</a></h5>
                     <p class="p-css">A partir del movimiento que se capture en Aspel-BANCO, automáticamente se graba el abono en las cuentas por cobrar y por pagar.</p>
                 </div>

@@ -34,7 +34,7 @@
                     <p class="text-p">Entra en vigor el 1ro de septiembre del 2018</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" class="img-responsive" style="margin-bottom: 12px;">
+                    <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%"  class="img-responsive" style="margin-bottom: 12px;">
                     <p class="text-p">Aspel SAE 7.0 te ayuda a realizar el complemento de pago</p>
                 </div>
                 <div class="col-md-4">

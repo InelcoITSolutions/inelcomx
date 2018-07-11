@@ -134,7 +134,7 @@
 	                    <div class="container-fluid">
 	                        <div class="row">
 	                            <div class="col-md-3">
-	                                <center><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="Aspel SAE Logo" class="img-responsive first"></center>
+	                                <center><img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%"  alt="Aspel SAE Logo" class="img-responsive first"></center>
 	                            </div>
 	                            <div class="col-md-9">
 	                                <div class="container-fluid ">
@@ -714,7 +714,7 @@
 	                    <div class="container-fluid">
 	                        <div class="row">
 	                            <div class="col-md-3">
-	                                <center><img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" alt="Aspel COI Logo" class="img-responsive first"></center>
+	                                <center><img src="/images-new/marcas/aspel/productos/coi/logos/inelco-aspel-coi-logo.png" width="60%"  alt="Aspel COI Logo" class="img-responsive first"></center>
 	                            </div>
 	                            <div class="col-md-9">
 	                                <div class="container-fluid ">
@@ -1039,7 +1039,7 @@
 	                    <div class="container-fluid">
 	                        <div class="row">
 	                            <div class="col-md-3">
-	                                <img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" alt="Aspel COI Logo" class="img-responsive first center-block">
+	                                <img src="/images-new/marcas/aspel/productos/noi/logos/inelco-aspel-noi-logo.png" width="60%"  alt="Aspel COI Logo" class="img-responsive first center-block">
 	                            </div>
 	                            <div class="col-md-9">
 	                                <div class="container-fluid ">
@@ -1517,7 +1517,7 @@
 	                    <div class="container-fluid">
 	                        <div class="row">
 	                            <div class="col-md-3">
-	                                <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" alt="Aspel BANCO Logo" class="img-responsive first center-block">
+	                                <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="Aspel BANCO Logo" class="img-responsive first center-block">
 	                            </div>
 	                            <div class="col-md-9">
 	                                <div class="container-fluid ">

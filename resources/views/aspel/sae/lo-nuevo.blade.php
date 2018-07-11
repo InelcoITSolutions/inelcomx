@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 imagencontainer">
-                    <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" alt="catalogo de metodos de pago" class="img-responsive">
+                    <img src="/images-new/marcas/aspel/productos/sae/logos/inelco-aspel-sae-logo.png" width="60%"  alt="catalogo de metodos de pago" class="img-responsive">
                 </div>
             </div>
             <div class="row">
