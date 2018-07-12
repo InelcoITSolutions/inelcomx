@@ -2822,7 +2822,8 @@ a.faq-span.collapsed:before{
 }
 
 #contactar a {
-    text-decoration: none;    
+    text-decoration: none;
+    width: 115px;  
 }
 
 /*  =====================
@@ -2912,6 +2913,7 @@ a.faq-span.collapsed:before{
 
 
 .btn-promocion {
+    width: 218px;
     color: #fff;
     background-color: transparent !important;
     border: solid 1px #fff;

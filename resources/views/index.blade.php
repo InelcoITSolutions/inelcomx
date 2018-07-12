@@ -471,11 +471,9 @@
 					<h2 class="title-h2">
 						Aprovecha las promociones que tenemos para ti.
 					</h2>
-					<a href="{{ url('/promociones') }}">
-						<button class="btn btn-promocion btn-lg center-block">
-							Conocer
-						</button>
-					</a>
+					<a href="{{ url('/promociones') }}" class="btn btn-promocion btn-lg center-block" role="button">
+                        Conocer promociones
+                    </a>
 				</div>
 			</div>
 		</div>
@@ -535,9 +533,9 @@
 	                {{-- <a href="{{ url('centro-de-descarga') }}" title="Ir al centro de descargas">
 						<button class="btn btn-primary btn-lg btn-inelco center-block" style="width:50%;margin-bottom:5%;">Descargas</button>
 					</a> --}}
-	                <a href="{{ url('/contacto')}}" title="Contactar">
-	                    <button class="btn btn-primary btn-lg btn-inelco-secundario center-block" style="width:50%;">Contactar</button>
-	                </a>
+	                <a href="{{ url('/contacto') }}" class="btn btn-inelco-secundario btn-lg center-block" role="button">
+	                	Contactar
+                    </a>
 	            </div>
 	        </div>
 	    </div>
