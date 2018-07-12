@@ -23,87 +23,6 @@
     font-weight: 600;
 }
 
-.btn-circle.btn-xl {
-    width: 60px;
-    height: 60px;
-    padding-top: 12px;
-    border-radius: 5px;
-    font-size: 24px;
-    line-height: 1.33;
-}
-
-.btn-circle {
-    position:fixed;
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
-}
-
-.boton-descargas .btn-circle.btn-xl {
-    width: 60px;
-    height: 60px;
-    padding-top: 12px;
-    border-radius: 5px;
-    font-size: 24px;
-    line-height: 1.33;
-}
-
-.boton-descargas .btn-circle {
-    position:fixed;
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
-    z-index: 3!important;
-}
-
-.btn-inelco {
-    color: #fff !important;
-    background-color: #1e3662 !important;
-    border-style: none;
-    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.btn-inelco:hover {
-    color: #fff !important;
-    background-color: #12203b !important;
-    border-style: none;
-    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.btn-inelco-secundario {
-    color: #1e3662;
-    background-color: #fff !important;
-    border: solid 1px #1e3662;
-    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.btn-inelco-secundario:hover {
-    color: #fff !important;
-    background-color: #12203b !important;
-    border: solid 1px #1e3662;
-    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.btn-proximamente .btn-inelco-secundario:hover {
-    color: #1e3662 !important;
-    background-color: white !important;
-    border: solid 1px #1e3662;
-}
-
 *{
     font-family: 'Open Sans', sans-serif;
 }
@@ -1147,7 +1066,7 @@ ul.multi-column-dropdown{
 }
 
 .word-frase .fondo-gray{
-    padding: 8% 0;
+    padding: 5% 0;
 }
 
 .word-frase h2{
@@ -1155,6 +1074,26 @@ ul.multi-column-dropdown{
     text-align: center;
     font-size: 2.2em;
     line-height: 1.4;
+}
+
+.inicio-promocion{
+    background-image: url(../images-new/inelco/promocion/fondo4.jpg);
+    color:#FFF;
+}
+
+.inicio-promocion .fondo-gray{
+    padding: 4% 0;
+}
+
+.inicio-promocion h2{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 1.4;
+}
+
+.inicio-promocion a {
+    text-decoration: none;
 }
 
 #section1{
@@ -1833,10 +1772,6 @@ ul.ul-inline{
     width: 290px;
    }
 }
-
-
-
-
 
 .rows-aspel .row{
     margin-top: 2em;
@@ -2696,7 +2631,6 @@ a.faq-span.collapsed:before{
 .section-header .section-title {
   font-size: 42px;
   margin-top: 0;
- 
   font-weight: 100;
   color: #1E3662;
   position: relative;
@@ -2859,5 +2793,136 @@ a.faq-span.collapsed:before{
   color:  #1E3662;
 }
 
+/* ==========================================================================
+   Sección de contacto
+   ========================================================================== */
+
+#contactar {
+    padding: 40px 0 80px 0;
+}
+
+#contactar .section-header .section-title {
+  position: relative;
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 200;
+  color: #1E3662;
+}
+
+#contactar .section-header .section-title span {
+    display: block;
+    margin:18px 0;
+}
+
+#contactar .section-header p {
+    font-size: 1.25em;
+    color: #6b6b7b;
+    font-weight: 300;
+    text-align: center;
+}
+
+#contactar a {
+    text-decoration: none;    
+}
+
+/*  =====================
+        + BOTONES +
+    ===================== */
+
+.btn-circle.btn-xl {
+    width: 60px;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    position:fixed;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.boton-descargas .btn-circle.btn-xl {
+    width: 60px;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.boton-descargas .btn-circle {
+    position:fixed;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    z-index: 3!important;
+}
+
+.btn-inelco {
+    color: #fff !important;
+    background-color: #1e3662 !important;
+    border-style: none;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-inelco:hover {
+    color: #fff !important;
+    background-color: #12203b !important;
+    border-style: none;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-inelco-secundario {
+    color: #1e3662;
+    background-color: #fff !important;
+    border: solid 1px #1e3662;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-inelco-secundario:hover {
+    color: #fff !important;
+    background-color: #12203b !important;
+    border: solid 1px #1e3662;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-proximamente .btn-inelco-secundario:hover {
+    color: #1e3662 !important;
+    background-color: white !important;
+    border: solid 1px #1e3662;
+}
 
 
+.btn-promocion {
+    color: #fff;
+    background-color: transparent !important;
+    border: solid 1px #fff;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-promocion:hover {
+    color: #1e3662 !important;
+    background-color: white !important;
+    border: solid 1px #fff;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}

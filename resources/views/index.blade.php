@@ -463,10 +463,28 @@
 			</div>
 		</section>
 	</div>
+
+	<section class="sections inicio-promocion">
+		<div class="fondo-gray">
+			<div class="container">
+				<div class="wow bounceInDown" data-wow-delay="0.2s">
+					<h2 class="title-h2">
+						Aprovecha las promociones que tenemos para ti.
+					</h2>
+					<a href="{{ url('/promociones') }}">
+						<button class="btn btn-promocion btn-lg center-block">
+							Conocer
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- Features Section End -->
 	<div id="hardware">
 		<section class="secciones">
-			<div id="hardware-tab" class="tab-pane ">
+			<div id="hardware-tab" class="tab-pane">
 				<div class="container ">
 					<div class="row">
 						<div class="col-md-12" style="margin-bottom: 24px;">
@@ -497,28 +515,40 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">
-					<div class="row gray-img">
-						{{--
-						<p class="text-center"><a style="text-decoration: none;" href="{{ url('centro-de-descarga') }}" title="Ir al centro de descargas">Descargas</a> | <a style="text-decoration: none;" href="{{ url('/contacto')}}" title="Ir a tienda">Contáctanos</a></p> --}}
-						<div class="col-md-4 col-md-offset-4">
-							<a href="{{ url('centro-de-descarga') }}" title="Ir al centro de descargas">
-								<button class="btn btn-primary btn-lg btn-inelco center-block" style="width:50%;margin-bottom:5%;">Descargas</button>
-							</a>
-							<a href="{{ url('/contacto')}}" title="Contactar">
-								<button class="btn btn-primary btn-lg btn-inelco-secundario center-block" style="width:50%;">Contáctanos</button>
-							</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</section>
 	</div>
+
+	<section id="contactar">
+	    <div class="container">
+	        <div class="row gray-img">
+	            <div class="col-md-12">
+	                <div class="section-header">
+	                    <h2 class="section-title">
+	                    	¿Tienes algún problema o necesitas hablar con nosotros?
+							<span>¡Contáctanos!</span>
+						</h2>
+	                    <p style="text-align: center;">Nuestro equipo te apoyará en lo que necesites.</p>
+	                </div>
+	            </div>
+	            <div class="col-md-4 col-md-offset-4">
+	                {{-- <a href="{{ url('centro-de-descarga') }}" title="Ir al centro de descargas">
+						<button class="btn btn-primary btn-lg btn-inelco center-block" style="width:50%;margin-bottom:5%;">Descargas</button>
+					</a> --}}
+	                <a href="{{ url('/contacto')}}" title="Contactar">
+	                    <button class="btn btn-primary btn-lg btn-inelco-secundario center-block" style="width:50%;">Contactar</button>
+	                </a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
 	<!-- <section class="secciones">
 			<video autoplay="autoplay" loop="loop" preload="auto" volume="50"/>
 				<source src="/video/abstract.mp4" type="video/mp4" />
 			</video/>
 		</section> -->
+
 	{{--
 	<section id="inicio-categorias">
 		<div class="container">
