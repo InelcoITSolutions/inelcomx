@@ -408,7 +408,7 @@
                     <p class="p-css">Genera las pólizas correspondientes a las ventas, compras, movimientos al inventario, abonos y cargos de cuentas por cobrar y por pagar.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-banco')}}" style="text-decoration:none;color:#32912f;">Aspel BANCO</a></h5>
                     <p class="p-css">Logra que todos los movimientos bancarios registrados actualicen en línea los saldos de las cuentas por cobrar y por pagar.</p>
                 </div>
@@ -418,7 +418,7 @@
                     <p class="p-css">Genera las pólizas modelo correspondientes a las provisiones y pagos de nómina, ya sea de forma general o desglosadas por trabajador, departamento o cuenta auxiliar.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-caja')}}"><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" alt="CAJA" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-caja')}}"><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" width="60%"  alt="CAJA" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-caja')}}" style="text-decoration:none;color:#fbb500;">Aspel CAJA</a></h5>
                     <p class="p-css">El catálogo de clientes y productos de los diferentes almacenes (tiendas) y el inventario de Aspel-SAE se actualiza por las ventas realizadas en los puntos de venta de Aspel-CAJA 4.0.</p>
                 </div>

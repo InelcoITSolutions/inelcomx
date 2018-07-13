@@ -598,7 +598,7 @@
                     <p class="p-css">Generación y contabilización de las pólizas en línea de los movimientos de la nómina, pólizas generales, por departamento, trabajador o cuenta auxiliar; demás cumple fácilmente con la Contabilidad Electrónica de tal forma que automáticamente integra el folio fiscal del CFDI correspondiente a los recibos electrónicos de los trabajadores en la póliza.</p>
                 </div>
                 <div class="col-md-6">
-                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-banco')}}" style="text-decoration:none;color:#32912f;">Aspel BANCO</a></h5>
                     <p class="p-css">Realiza los cheques para el pago de nómina y su seguimiento.</p>
                 </div>

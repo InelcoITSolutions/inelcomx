@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" alt="Aspel PROD  Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" width="60%"  alt="Aspel PROD  Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>

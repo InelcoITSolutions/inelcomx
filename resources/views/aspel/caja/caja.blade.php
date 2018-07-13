@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" alt="Aspel CAJA Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" width="60%"  alt="Aspel CAJA Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>

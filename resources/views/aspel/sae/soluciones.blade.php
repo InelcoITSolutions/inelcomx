@@ -337,17 +337,17 @@
                     <p class="p-css">Genera las pólizas correspondientes a las ventas, compras, movimientos al inventario, abonos y cargos de cuentas por cobrar y por pagar. La contabilización de las pólizas puede ser en línea y de acuerdo a los requisitos de la Contabilidad Electrónica.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-prod')}}"><img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" alt="PROD" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-prod')}}"><img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" width="60%"  alt="PROD" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-prod')}}" style="text-decoration:none;color:#2d6c88;">Aspel PROD</a></h5>
                     <p class="p-css">Utiliza y actualiza el catálogo de inventarios de Aspel-SAE, éste provee los sub-ensambles y materias primas para formar las hojas de costos del producto terminado.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-banco')}}"><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  width="60%"  alt="BANCO" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-banco')}}" style="text-decoration:none;color:#32912f;">Aspel BANCO</a></h5>
                     <p class="p-css">Logra que todos los movimientos bancarios registrados actualicen en línea los saldos de las cuentas por cobrar y por pagar.</p>
                 </div>
                 <div class="col-md-3">
-                    <div class="center-block"><a href="{{url('aspel-caja')}}"><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" alt="CAJA" class="img-responsive logo-produ"></a></div>
+                    <div class="center-block"><a href="{{url('aspel-caja')}}"><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" width="60%"  alt="CAJA" class="img-responsive logo-produ"></a></div>
                     <h5 class="title-h5"><a href="{{url('aspel-caja')}}" style="text-decoration:none;color:#fbb500;">Aspel CAJA</a></h5>
                     <p class="p-css">El catálogo de clientes y productos de los diferentes almacenes (tiendas) y el inventario de Aspel-SAE se actualiza por las ventas realizadas en los puntos de venta de Aspel-CAJA 4.0.</p>
                 </div>

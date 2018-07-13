@@ -91,7 +91,7 @@
                 
                  <div class="col-md-4" id="inelco-aspel">
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="Aspel BANCO Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  width="60%"  alt="Aspel BANCO Logo" class="img-responsive first">
                     <br>
                   </div>
 
@@ -109,7 +109,7 @@
                
                  <div class="col-md-4" id="inelco-aspel">
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" alt="Aspel PROD  Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" width="60%"  alt="Aspel PROD  Logo" class="img-responsive first">
                     <br>
                   </div>
 
@@ -125,7 +125,7 @@
 
                  <div class="col-md-4" id="inelco-aspel">
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" alt="Aspel CAJA Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" width="60%"  alt="Aspel CAJA Logo" class="img-responsive first">
                     <br>
                   </div>
 
@@ -144,7 +144,7 @@
                
                  <div class="col-md-4" id="inelco-aspel">
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" alt="Aspel FACTURE Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" width="60%"  alt="Aspel FACTURE Logo" class="img-responsive first">
                     <br>
                   </div>
                   
@@ -164,7 +164,7 @@
                  
                  <div class="col-md-4" id="inelco-aspel"> 
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/adm/logos/inelco-aspel-adm-logo.png" alt="Aspel ADM Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/adm/logos/inelco-aspel-adm-logo.png" width="60%"  alt="Aspel ADM Logo" class="img-responsive first">
                     <br>
                   </div>
                   
@@ -200,7 +200,7 @@
                
                  <div class="col-md-4" id="inelco-aspel">
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/adm_tienda/logos/inelco-aspel-admtienda-logo.png" alt="Aspel ADM Tienda Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/adm_tienda/logos/inelco-aspel-admtienda-logo.png" width="60%"  alt="Aspel ADM Tienda Logo" class="img-responsive first">
                     <br>
                   </div>
                   
@@ -220,7 +220,7 @@
                  
                  <div class="col-md-4" id="inelco-aspel"> 
                   <div class="col-md-12">
-                    <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/espacio/logos/inelco-aspel-espacio-logo.png" alt="Aspel espacio Logo" class="img-responsive first">
+                    <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/espacio/logos/inelco-aspel-espacio-logo.png" width="60%"  alt="Aspel espacio Logo" class="img-responsive first">
                     <br>
                   </div>
                   

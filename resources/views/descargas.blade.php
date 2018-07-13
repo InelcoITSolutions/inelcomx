@@ -199,7 +199,7 @@
                         <div class="container-fluid ">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <center><img src="/images-new/marcas/aspel/productos/adm/logos/inelco-aspel-adm-logo.png" alt="Aspel ADM Logo" class="img-responsive first"></center>
+                                    <center><img src="/images-new/marcas/aspel/productos/adm/logos/inelco-aspel-adm-logo.png" width="60%"  alt="Aspel ADM Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
                                     <h3 class="title-h3">Aspel-ADM</h3>
@@ -253,7 +253,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <center><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  alt="Aspel BANCO Logo" class="img-responsive first"></center>
+                                    <center><img src="/images-new/marcas/aspel/productos/banco/logos/inelco-aspel-banco-logo.png" width="60%"  width="60%"  alt="Aspel BANCO Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
                                     <h3 class="title-h3">Aspel BANCO 4.0 - R7</h3>
@@ -324,7 +324,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <center><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" alt="Aspel CAJA Logo" class="img-responsive first"></center>
+                                    <center><img src="/images-new/marcas/aspel/productos/caja/logos/inelco-aspel-caja-logo.png" width="60%"  alt="Aspel CAJA Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
                                     <h3 class="title-h3">Aspel CAJA 4.0 - R10</h3>
@@ -539,7 +539,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <center><img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" alt="Aspel FACTURE Logo" class="img-responsive first"></center>
+                                    <center><img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" width="60%"  alt="Aspel FACTURE Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
                                     <h3 class="title-h3">Aspel FACTURⓔ 4.0 - R12</h3>
@@ -758,7 +758,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <center><img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" alt="Aspel PROD  Logo" class="img-responsive first"></center>
+                                    <center><img src="/images-new/marcas/aspel/productos/prod/logos/inelco-aspel-prod-logo.png" width="60%"  alt="Aspel PROD  Logo" class="img-responsive first"></center>
                                 </div>
                                 <div class="col-md-9">
                                     <h3 class="title-h3">Aspel PROD 3.0 - R1</h3>

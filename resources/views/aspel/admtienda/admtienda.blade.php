@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/adm_tienda/logos/inelco-aspel-admtienda-logo.png" alt="Aspel ADM Tienda Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/adm_tienda/logos/inelco-aspel-admtienda-logo.png" width="60%"  alt="Aspel ADM Tienda Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>

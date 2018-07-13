@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" alt="Aspel FACTURE Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/facture/logos/inelco-aspel-facture-logo.png" width="60%"  alt="Aspel FACTURE Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>

@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/espacio/logos/inelco-aspel-espacio-logo.png" alt="Aspel espacio Logo" class="img-responsive first">
+                        <img src="/images-new/marcas/aspel/productos/aspel_nube/productos/espacio/logos/inelco-aspel-espacio-logo.png" width="60%"  alt="Aspel espacio Logo" class="img-responsive first">
                     </center>
                 </div>
             </div>
