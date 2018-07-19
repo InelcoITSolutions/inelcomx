@@ -4,8 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
-    {{-- Datos para share de facebook--}}
+    <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+    <!-- META | SEO -->
+    <meta content="Genera y contabiliza las pólizas de los movimientos de la nómina en línea. Excelencia en el manejo de capital humano y la mejor productividad con la contabilidad electrónica gracias a los sistemas Aspel COI y Aspel NOI." name="description"/>
+    <meta content="aspel, soluciones, promociones, descuentos, contabilidad, eletrónica, pólizas, información, financiera, productividad, información, contable, fiscal, nómina, digital, capital, humano, sistemas, coi, noi" name="keywords"/>
+    <meta content="AspelSoluciones" name="author"/>
+    <meta content="Index, Follow" name="robots"/>
+    <!-- META | Social Media -->
     <meta property="og:url" content="https://www.inelco.mx/promocion-coi-noi" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Promociones de Aspel COI y Aspel NOI | Inelco IT Solutions" />
@@ -13,11 +18,9 @@
     <meta property="og:image" content="http://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" />
     <meta property="og:image:secure_url" content="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" />
     <link href="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" rel="image_src" />
+
     {{-- GENERALES --}}
-    <meta content="Dedicados a ofrecer soluciones tecnológicas y consultoría de calidad para asesorar e implementar sistemas aspel, de restaurantes, facturación y CRM para pequeñas y medianas empresas." name="description">
-    <meta content="soluciones de tecnología, consultoría, asesoria, capacitación, sistemas, aspel, cursos, national-soft, soluciones para restaurantes, sistemas de administración, aspel, soft-restaurant" name="keywords">
-    <meta content="Inelco IT Solutions S.A de C.V" name="author">
-    <meta content="Index, Follow" name="robots"> {{-- esto eliminara la cache --}}
+    {{-- esto eliminara la cache --}}
     <meta http-equiv="expires" content="0">
     <meta http-equiv="Cache-Control" content="no-cache">
     <meta http-equiv="Pragma" CONTENT="no-cache">

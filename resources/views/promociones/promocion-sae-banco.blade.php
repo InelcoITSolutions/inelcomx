@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
     {{-- Datos para share de facebook--}}
+
+    <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+    <!-- META | SEO -->
+    <meta content="Consigue el máximo control de tus movimientos bancarios y procesos administrativos. Consolida los procesos de tu empresa con el paquete de sistemas Aspel SAE y Aspel BANCO." name="description"/>
+    <meta content="aspel, soluciones, promociones, descuentos, contron, movimientos, bancarios, procesos, administrativos, administración, procesos, facturación, electrónica, cfdi, sistemas, sae, banco" name="keywords"/>
+    <meta content="Inelco IT Solutions S.A. de C.V." name="author"/>
+    <meta content="Index, Follow" name="robots"/>    
+    <!-- META | Social Media -->
     <meta property="og:url" content="https://www.inelco.mx/promocion-sae-banco" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Promociones de Aspel SAE y Aspel BANCO | Inelco IT Solutions" />
@@ -12,11 +20,9 @@
     <meta property="og:image" content="http://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
     <meta property="og:image:secure_url" content="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
     <link href="https://www.inelco.mx/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" rel="image_src" />
+
     {{-- GENERALES --}}
-    <meta content="Dedicados a ofrecer soluciones tecnológicas y consultoría de calidad para asesorar e implementar sistemas aspel, de restaurantes, facturación y CRM para pequeñas y medianas empresas." name="description">
-    <meta content="soluciones de tecnología, consultoría, asesoria, capacitación, sistemas, aspel, cursos, national-soft, soluciones para restaurantes, sistemas de administración, aspel, soft-restaurant" name="keywords">
-    <meta content="Inelco IT Solutions S.A de C.V" name="author">
-    <meta content="Index, Follow" name="robots"> {{-- esto eliminara la cache --}}
+    {{-- esto eliminara la cache --}}
     <meta http-equiv="expires" content="0">
     <meta http-equiv="Cache-Control" content="no-cache">
     <meta http-equiv="Pragma" CONTENT="no-cache">
