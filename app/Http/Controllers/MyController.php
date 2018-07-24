@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Input;
 class MyController extends Controller{
 
     public function index(){
-    	return view('index'); 
+        return view('index'); 
     }
 
     // public function servicios(){
@@ -622,7 +622,7 @@ class MyController extends Controller{
     }
 
     public function contacto(){
-    	return view('contacto');
+        return view('contacto');
     }
 
     public function descargas(){
@@ -656,7 +656,7 @@ class MyController extends Controller{
     }
 
     /*public function sae(){
-    	return view('aspel.sae');
+        return view('aspel.sae');
     }*/
 
     public function aspel(){
